@@ -9,7 +9,7 @@ requests==2.31.0
 gunicorn==21.2.0
 
 # Dependências básicas fixas
-typing-extensions==4.7.1
+typing-extensions==4.12.2
 anyio==3.7.1
 starlette==0.27.0
 click==8.1.6
