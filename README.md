@@ -114,14 +114,15 @@ git push heroku main
 
 **Erro de Compilação pydantic-core no Render:**
 - **Causa:** Sistema de arquivos somente leitura impede compilação de dependências Rust
-- **Solução Primária:** Use `requirements-simple.txt` com versões fixas pré-compiladas
-- **Solução Alternativa:** Se ainda falhar, use `requirements-minimal.txt` (versões mais antigas)
-- **Build Command:** `pip install -r requirements-simple.txt` ou `pip install -r requirements-minimal.txt`
+- **Solução 1:** `requirements-simple.txt` (versões modernas com wheels)
+- **Solução 2:** `requirements-minimal.txt` (versões mais antigas)
+- **Solução 3:** `requirements-ultra-simple.txt` (sem dependências Rust - Pydantic 1.x)
+- **Build Command:** `pip install -r requirements-ultra-simple.txt`
 - **Start Command:** `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
-- **Estratégia:** Versões específicas com wheels pré-compilados garantidos
-- **Arquivos disponíveis:**
-  - `requirements-simple.txt`: Versões modernas (FastAPI 0.100.0, Pydantic 2.0.3)
-  - `requirements-minimal.txt`: Versões mais antigas e estáveis (FastAPI 0.95.2, Pydantic 1.10.12)
+- **Arquivos disponíveis (em ordem de compatibilidade):**
+  - `requirements-ultra-simple.txt`: **RECOMENDADO** - Pydantic 1.10.12 (sem Rust)
+  - `requirements-simple.txt`: Pydantic 2.0.3 (pode falhar)
+  - `requirements-minimal.txt`: Versões alternativas
 
 ## 🔧 Configuração
 
