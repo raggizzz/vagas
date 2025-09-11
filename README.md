@@ -110,8 +110,22 @@ git push heroku main
    - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
 3. Configure as variáveis de ambiente
 
-**⚠️ Troubleshooting Deploy:**
-Se encontrar erros de compilação do pydantic-core, use `requirements-simple.txt` que contém versões mais compatíveis.
+⚠️ **Troubleshooting Deploy:**
+
+**Erro de compilação pydantic-core no Render:**
+Se você encontrar o erro "Read-only file system" durante a compilação do `pydantic-core`, isso acontece porque o Render usa um sistema de arquivos somente leitura que impede a compilação de pacotes Rust.
+
+**Solução:**
+1. Use `requirements-simple.txt` no comando de build
+2. Este arquivo contém versões pré-compiladas compatíveis
+3. No Render, configure:
+   - **Build Command**: `pip install -r requirements-simple.txt`
+   - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
+
+**Versões testadas e funcionais:**
+- pydantic==2.4.2 (ao invés de 2.5.2)
+- supabase==2.3.0 (ao invés de 2.3.4)
+- requests==2.31.0 (ao invés de 2.32.3)
 
 ## 🔧 Configuração
 
