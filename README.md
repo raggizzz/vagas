@@ -106,7 +106,7 @@ git push heroku main
 
 1. Conecte seu repositório ao [Render](https://render.com)
 2. Configure o serviço web com:
-   - **Build Command**: `pip install -r requirements-simple.txt`
+   - **Build Command**: `pip install -r requirements-ultra-simple.txt` (RECOMENDADO)
    - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
 3. Configure as variáveis de ambiente
 
@@ -116,7 +116,8 @@ git push heroku main
 - **Causa:** Sistema de arquivos somente leitura impede compilação de dependências Rust
 - **Solução 1:** `requirements-simple.txt` (versões modernas com wheels)
 - **Solução 2:** `requirements-minimal.txt` (versões mais antigas)
-- **Solução 3:** `requirements-ultra-simple.txt` (sem dependências Rust - Pydantic 1.x)
+- **Solução 3 (RECOMENDADA - USE ESTA):** `requirements-ultra-simple.txt` (sem dependências Rust - Pydantic 1.x)
+  - Esta é a solução definitiva para o erro de compilação Rust
 - **Build Command:** `pip install -r requirements-ultra-simple.txt`
 - **Start Command:** `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
 - **Arquivos disponíveis (em ordem de compatibilidade):**
