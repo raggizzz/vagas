@@ -47,7 +47,11 @@ cd vagas-skills-api
 
 2. Instale as dependências:
 ```bash
+# Para desenvolvimento local
 pip install -r requirements.txt
+
+# Para deploy (se houver problemas de compilação)
+pip install -r requirements-simple.txt
 ```
 
 3. Configure as variáveis de ambiente:
@@ -102,9 +106,12 @@ git push heroku main
 
 1. Conecte seu repositório ao [Render](https://render.com)
 2. Configure o serviço web com:
-   - **Build Command**: `pip install -r requirements.txt`
+   - **Build Command**: `pip install -r requirements-simple.txt`
    - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
 3. Configure as variáveis de ambiente
+
+**⚠️ Troubleshooting Deploy:**
+Se encontrar erros de compilação do pydantic-core, use `requirements-simple.txt` que contém versões mais compatíveis.
 
 ## 🔧 Configuração
 
