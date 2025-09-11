@@ -1,0 +1,95 @@
+2025-09-10 12:16:38,517 - INFO - 📂 Carregando dados de vagas_todos_setores_1_pagina.csv
+2025-09-10 12:16:38,875 - INFO - ✅ 30547 vagas carregadas
+2025-09-10 12:16:38,885 - ERROR - ❌ Erro durante o processamento: not all arguments converted during string formatting
+2025-09-10 12:17:24,350 - INFO - 📂 Carregando dados de vagas_todos_setores_1_pagina.csv
+2025-09-10 12:17:24,700 - INFO - ✅ 30547 vagas carregadas
+2025-09-10 12:17:24,712 - ERROR - ❌ Erro durante o processamento: can only concatenate str (not "int") to str
+2025-09-10 12:17:58,918 - INFO - 📂 Carregando dados de vagas_todos_setores_1_pagina.csv
+2025-09-10 12:17:59,270 - INFO - ✅ 30547 vagas carregadas
+2025-09-10 12:18:00,162 - INFO - 🔄 Processadas 5000 vagas...
+2025-09-10 12:18:01,116 - INFO - 🔄 Processadas 10000 vagas...
+2025-09-10 12:18:01,996 - INFO - 🔄 Processadas 15000 vagas...
+2025-09-10 12:18:02,869 - INFO - 🔄 Processadas 20000 vagas...
+2025-09-10 12:18:03,898 - INFO - 🔄 Processadas 25000 vagas...
+2025-09-10 12:18:04,764 - INFO - 🔄 Processadas 30000 vagas...
+2025-09-10 12:18:04,857 - INFO - ✅ Total de vagas processadas: 30547
+2025-09-10 12:18:04,934 - INFO - 🔄 Vagas após remoção de duplicatas: 30547
+2025-09-10 12:18:04,947 - INFO - 
+📊 ESTATÍSTICAS DOS DADOS PROCESSADOS
+2025-09-10 12:18:04,948 - INFO - ==================================================
+2025-09-10 12:18:04,948 - INFO - 📈 Total de vagas: 30547
+2025-09-10 12:18:04,948 - INFO - 
+📊 Top 10 Modalidade:
+2025-09-10 12:18:04,949 - INFO -    Presencial: 30547 (100.0%)
+2025-09-10 12:18:04,949 - INFO - 
+📊 Top 10 Empresas:
+2025-09-10 12:18:04,949 - INFO -    Comunicacao e: 15 (0.0%)
+2025-09-10 12:18:04,950 - INFO - 
+🏷️ Top 15 Tags:
+2025-09-10 12:18:04,950 - INFO -    MARKETING: 15 (0.0%)
+2025-09-10 12:18:04,950 - INFO - 💾 Salvando 30547 vagas em vagas_normalizadas_avancado.json
+2025-09-10 12:18:07,162 - INFO - ✅ Dados salvos com sucesso!
+2025-09-10 12:18:07,162 - INFO - 
+🎉 Processo concluído com sucesso!
+2025-09-10 12:18:07,163 - INFO - 📁 Arquivo gerado: vagas_normalizadas_avancado.json
+2025-09-10 12:18:07,163 - INFO - 📊 Total de vagas normalizadas: 30547
+2025-09-10 12:20:40,071 - INFO - 📂 Carregando dados de vagas_todos_setores_1_pagina.csv
+2025-09-10 12:20:40,449 - INFO - ✅ 30547 vagas carregadas
+2025-09-10 12:20:41,601 - INFO - 🔄 Processadas 5000 vagas...
+2025-09-10 12:20:42,744 - INFO - 🔄 Processadas 10000 vagas...
+2025-09-10 12:20:43,739 - INFO - 🔄 Processadas 15000 vagas...
+2025-09-10 12:20:44,883 - INFO - 🔄 Processadas 20000 vagas...
+2025-09-10 12:20:46,134 - INFO - 🔄 Processadas 25000 vagas...
+2025-09-10 12:20:47,378 - INFO - 🔄 Processadas 30000 vagas...
+2025-09-10 12:20:47,523 - INFO - ✅ Total de vagas processadas: 30547
+2025-09-10 12:20:47,616 - INFO - 🔄 Vagas após remoção de duplicatas: 30547
+2025-09-10 12:20:47,632 - INFO - 
+📊 ESTATÍSTICAS DOS DADOS PROCESSADOS
+2025-09-10 12:20:47,632 - INFO - ==================================================
+2025-09-10 12:20:47,633 - INFO - 📈 Total de vagas: 30547
+2025-09-10 12:20:47,633 - INFO - 
+📊 Top 10 Modalidade:
+2025-09-10 12:20:47,633 - INFO -    Presencial: 30547 (100.0%)
+2025-09-10 12:20:47,633 - INFO - 
+📊 Top 10 Empresas:
+2025-09-10 12:20:47,633 - INFO -    Comunicacao e: 15 (0.0%)
+2025-09-10 12:20:47,634 - INFO - 
+🏷️ Top 15 Tags:
+2025-09-10 12:20:47,634 - INFO -    MARKETING: 15 (0.0%)
+2025-09-10 12:20:47,634 - INFO - 💾 Salvando 30547 vagas em vagas_normalizadas_avancado.json
+2025-09-10 12:20:50,705 - INFO - ✅ Dados salvos com sucesso!
+2025-09-10 12:20:50,705 - INFO - 
+🎉 Processo concluído com sucesso!
+2025-09-10 12:20:50,705 - INFO - 📁 Arquivo gerado: vagas_normalizadas_avancado.json
+2025-09-10 12:20:50,706 - INFO - 📊 Total de vagas normalizadas: 30547
+2025-09-10 12:23:05,255 - INFO - 📂 Carregando dados de vagas_todos_setores_1_pagina.csv
+2025-09-10 12:23:05,583 - INFO - ✅ 30547 vagas carregadas
+2025-09-10 12:23:06,483 - INFO - 🔄 Processadas 5000 vagas...
+2025-09-10 12:23:07,417 - INFO - 🔄 Processadas 10000 vagas...
+2025-09-10 12:23:08,166 - INFO - 🔄 Processadas 15000 vagas...
+2025-09-10 12:23:09,002 - INFO - 🔄 Processadas 20000 vagas...
+2025-09-10 12:23:09,843 - INFO - 🔄 Processadas 25000 vagas...
+2025-09-10 12:23:10,590 - INFO - 🔄 Processadas 30000 vagas...
+2025-09-10 12:23:10,702 - INFO - ✅ Total de vagas processadas: 30547
+2025-09-10 12:23:10,766 - INFO - 🔄 Vagas após remoção de duplicatas: 30547
+2025-09-10 12:23:10,767 - INFO - 
+📊 ESTATÍSTICAS DOS DADOS PROCESSADOS
+2025-09-10 12:23:10,767 - INFO - ==================================================
+2025-09-10 12:23:10,767 - INFO - 📈 Total de vagas: 30547
+2025-09-10 12:23:10,770 - INFO - 
+📊 Top 10 Modalidade:
+2025-09-10 12:23:10,772 - INFO -    Presencial: 30547 (100.0%)
+2025-09-10 12:23:10,774 - INFO - 
+📊 Top 10 Empresas:
+2025-09-10 12:23:10,777 - INFO - 
+🏷️ Top 15 Tags:
+2025-09-10 12:23:10,778 - INFO -    TECNOLOGIA: 67 (0.2%)
+2025-09-10 12:23:10,778 - INFO -    MARKETING: 45 (0.1%)
+2025-09-10 12:23:10,778 - INFO -    SOCIAL: 15 (0.0%)
+2025-09-10 12:23:10,779 - INFO -    VENDAS: 15 (0.0%)
+2025-09-10 12:23:10,779 - INFO - 💾 Salvando 30547 vagas em vagas_normalizadas_avancado.json
+2025-09-10 12:23:13,684 - INFO - ✅ Dados salvos com sucesso!
+2025-09-10 12:23:13,685 - INFO - 
+🎉 Processo concluído com sucesso!
+2025-09-10 12:23:13,686 - INFO - 📁 Arquivo gerado: vagas_normalizadas_avancado.json
+2025-09-10 12:23:13,686 - INFO - 📊 Total de vagas normalizadas: 30547

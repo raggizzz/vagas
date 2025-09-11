@@ -1,0 +1,1 @@
+web: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT

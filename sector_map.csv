@@ -1,0 +1,96 @@
+raw_sector,normalized_sector,alias
+Administracao,Administracao,administracao
+Administracao,Administracao,administrativo
+Administracao,Administracao,gestao
+Administracao,Administracao,gestão
+Comercial e vendas,Comercial/Vendas,comercial
+Comercial e vendas,Comercial/Vendas,vendas
+Comercial e vendas,Comercial/Vendas,comercial e vendas
+Comercial e vendas,Comercial/Vendas,sales
+Comercio exterior,Comercial/Vendas,comercio exterior
+Comercio exterior,Comercial/Vendas,export
+Comercio exterior,Comercial/Vendas,import
+Comunicacao e marketing,Marketing,comunicacao
+Comunicacao e marketing,Marketing,marketing
+Comunicacao e marketing,Marketing,publicidade
+Comunicacao e marketing,Marketing,propaganda
+Educacao,Educacao,educacao
+Educacao,Educacao,ensino
+Educacao,Educacao,professor
+Educacao,Educacao,escola
+Educacao,Educacao,universidade
+Engenharia,Engenharia,engenharia
+Engenharia,Engenharia,engenheiro
+Engenharia,Engenharia,tecnico
+Engenharia,Engenharia,técnico
+Financeira,Financeiro,financeira
+Financeira,Financeiro,financeiro
+Financeira,Financeiro,banco
+Financeira,Financeiro,credito
+Financeira,Financeiro,crédito
+Hotelaria e turismo,Turismo/Hotelaria,hotelaria
+Hotelaria e turismo,Turismo/Hotelaria,turismo
+Hotelaria e turismo,Turismo/Hotelaria,hotel
+Hotelaria e turismo,Turismo/Hotelaria,pousada
+Industrial,Industrial,industrial
+Industrial,Industrial,fabrica
+Industrial,Industrial,fábrica
+Industrial,Industrial,producao
+Industrial,Industrial,produção
+Industrial,Industrial,manufatura
+Informatica,Informatica/TI/Engenharia da Computacao,informatica
+Informatica,Informatica/TI/Engenharia da Computacao,tecnologia
+Informatica,Informatica/TI/Engenharia da Computacao,ti
+Informatica,Informatica/TI/Engenharia da Computacao,software
+Informatica,Informatica/TI/Engenharia da Computacao,programacao
+Informatica,Informatica/TI/Engenharia da Computacao,programação
+Juridica,Juridico,juridica
+Juridica,Juridico,direito
+Juridica,Juridico,advogado
+Juridica,Juridico,legal
+Saude,Saude,saude
+Saude,Saude,medico
+Saude,Saude,médico
+Saude,Saude,hospital
+Saude,Saude,clinica
+Saude,Saude,clínica
+Saude,Saude,enfermagem
+ServicoSocial,Recursos Humanos,servico social
+ServicoSocial,Recursos Humanos,serviço social
+ServicoSocial,Recursos Humanos,rh
+ServicoSocial,Recursos Humanos,recursos humanos
+Suprimentos,Logistica,suprimentos
+Suprimentos,Logistica,compras
+Suprimentos,Logistica,procurement
+Suprimentos,Logistica,supply
+Tecnica,Engenharia,tecnica
+Tecnica,Engenharia,técnica
+Tecnica,Engenharia,manutencao
+Tecnica,Engenharia,manutenção
+Telecomunicacoes,Informatica/TI/Engenharia da Computacao,telecomunicacoes
+Telecomunicacoes,Informatica/TI/Engenharia da Computacao,telecomunicações
+Telecomunicacoes,Informatica/TI/Engenharia da Computacao,telecom
+Telemarketing,Atendimento/Call Center,telemarketing
+Telemarketing,Atendimento/Call Center,call center
+Telemarketing,Atendimento/Call Center,atendimento
+Telemarketing,Atendimento/Call Center,sac
+arquitetura e design,Engenharia,arquitetura
+arquitetura e design,Engenharia,design
+arquitetura e design,Engenharia,projeto
+pecuaria e veterinaria,Agricultura,pecuaria
+pecuaria e veterinaria,Agricultura,pecuária
+pecuaria e veterinaria,Agricultura,veterinaria
+pecuaria e veterinaria,Agricultura,veterinária
+pecuaria e veterinaria,Agricultura,agropecuaria
+pecuaria e veterinaria,Agricultura,agropecuária
+Contabilidade,Contabilidade,contabilidade
+Contabilidade,Contabilidade,contador
+Contabilidade,Contabilidade,fiscal
+Contabilidade,Contabilidade,tributario
+Contabilidade,Contabilidade,tributário
+Logistica,Logistica,logistica
+Logistica,Logistica,transporte
+Logistica,Logistica,distribuicao
+Logistica,Logistica,distribuição
+Logistica,Logistica,armazem
+Logistica,Logistica,armazém

@@ -1,0 +1,59 @@
+setor,skill,contagem,total_setor,percentual
+Administracao,controle financeiro,46,123,37.40%
+Administracao,excel,57,123,46.34%
+Administracao,organizacao,55,123,44.72%
+Administracao,planejamento estrategico,29,123,23.58%
+Agricultura,controle de pragas,15,15,100.00%
+Agricultura,irrigacao,15,15,100.00%
+Agricultura,manejo de culturas,15,15,100.00%
+Atendimento/Call Center,comunicacao,26,30,86.67%
+Atendimento/Call Center,comunicacao telefonica,17,30,56.67%
+Atendimento/Call Center,sistemas crm,20,30,66.67%
+Comercial/Vendas,comunicacao,28,29,96.55%
+Comercial/Vendas,crm,25,29,86.21%
+Comercial/Vendas,prospeccao de clientes,13,29,44.83%
+Comercial/Vendas,trabalho em equipe,28,29,96.55%
+Comercial/Vendas,vendas,28,29,96.55%
+Educacao,didatica,23,29,79.31%
+Educacao,gestao de sala de aula,16,29,55.17%
+Educacao,planejamento de aulas,21,29,72.41%
+Educacao,tecnologias educacionais,17,29,58.62%
+Engenharia,cad,36,56,64.29%
+Engenharia,excel,25,56,44.64%
+Engenharia,normas tecnicas,23,56,41.07%
+Engenharia,resolucao de problemas,25,56,44.64%
+Financeiro,analise financeira,29,30,96.67%
+Financeiro,controles internos,13,30,43.33%
+Financeiro,excel avancado,20,30,66.67%
+Financeiro,power bi,27,30,90.00%
+Financeiro,sap,15,30,50.00%
+Industrial,controle de qualidade,14,23,60.87%
+Industrial,manutencao,20,23,86.96%
+Industrial,operacao de maquinas,16,23,69.57%
+Industrial,seguranca do trabalho,17,23,73.91%
+Informatica/TI/Engenharia da Computacao,cloud,2,54,3.70%
+Informatica/TI/Engenharia da Computacao,power bi,39,54,72.22%
+Informatica/TI/Engenharia da Computacao,python,9,54,16.67%
+Juridico,direito civil,27,31,87.10%
+Juridico,direito trabalhista,23,31,74.19%
+Juridico,oab,27,31,87.10%
+Juridico,processo civil,27,31,87.10%
+Logistica,gestao de estoque,15,29,51.72%
+Logistica,supply chain,25,29,86.21%
+Logistica,transporte,23,29,79.31%
+Logistica,wms,10,29,34.48%
+Marketing,analytics,15,15,100.00%
+Marketing,google ads,15,15,100.00%
+Marketing,marketing digital,15,15,100.00%
+Marketing,redes sociais,15,15,100.00%
+Marketing,seo,15,15,100.00%
+Recursos Humanos,gestao de pessoas,15,15,100.00%
+Recursos Humanos,treinamento,15,15,100.00%
+Saude,atendimento ao paciente,18,24,75.00%
+Saude,conhecimentos medicos,16,24,66.67%
+Saude,primeiros socorros,8,24,33.33%
+Saude,sistemas hospitalares,15,24,62.50%
+Turismo/Hotelaria,atendimento ao cliente,13,13,100.00%
+Turismo/Hotelaria,idiomas,13,13,100.00%
+Turismo/Hotelaria,recepcao,13,13,100.00%
+Turismo/Hotelaria,sistemas hoteleiros,13,13,100.00%

@@ -1,0 +1,98 @@
+{
+  "total_vagas": 15,
+  "analise_salarial": {
+    "vagas_com_salario": 0,
+    "vagas_com_faixa_salarial": 0,
+    "percentual_com_salario": 0.0
+  },
+  "analise_habilidades": {
+    "total_habilidades_unicas": 10,
+    "top_10_habilidades": [
+      [
+        "C",
+        15
+      ],
+      [
+        "Manutenção Preventiva",
+        15
+      ],
+      [
+        "MES",
+        15
+      ],
+      [
+        "Hidráulica",
+        14
+      ],
+      [
+        "CIPA",
+        13
+      ],
+      [
+        "5S",
+        13
+      ],
+      [
+        "Excel",
+        12
+      ],
+      [
+        "CEP",
+        8
+      ],
+      [
+        "Eletrônica",
+        2
+      ],
+      [
+        "Manutenção Corretiva",
+        2
+      ]
+    ]
+  },
+  "analise_empresas": {
+    "total_empresas_unicas": 3,
+    "empresas_com_mais_vagas": [
+      [
+        "o público PCD",
+        1
+      ],
+      [
+        "o público PCD - 99543",
+        1
+      ],
+      [
+        "o público PCD - 98392",
+        1
+      ]
+    ]
+  },
+  "analise_formacao": {
+    "distribuicao_formacao": [
+      [
+        "Superior Completo",
+        15
+      ]
+    ]
+  },
+  "analise_beneficios": {
+    "beneficios_mais_oferecidos": [
+      [
+        "Vale Transporte",
+        14
+      ],
+      [
+        "Vale Alimentação",
+        14
+      ],
+      [
+        "Seguro De Vida",
+        14
+      ],
+      [
+        "Participação Nos Lucros",
+        5
+      ]
+    ]
+  }
+}

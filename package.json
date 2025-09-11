@@ -1,0 +1,13 @@
+{
+  "name": "api-vagas-skills",
+  "version": "1.0.0",
+  "description": "API para consultar vagas de emprego por skills e setores",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "dev": "uvicorn main:app --reload"
+  },
+  "keywords": ["api", "jobs", "skills", "fastapi", "python"],
+  "author": "",
+  "license": "MIT"
+}

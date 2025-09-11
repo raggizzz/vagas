@@ -1,0 +1,38 @@
+[
+  {
+    "setor": "ServicoSocial",
+    "total_vagas": 15,
+    "descricoes_unicas": 1,
+    "taxa_diversidade": 6.666666666666667
+  },
+  {
+    "setor": "Telemarketing",
+    "total_vagas": 30,
+    "descricoes_unicas": 14,
+    "taxa_diversidade": 46.666666666666664
+  },
+  {
+    "setor": "Tecnica",
+    "total_vagas": 23,
+    "descricoes_unicas": 12,
+    "taxa_diversidade": 52.17391304347826
+  },
+  {
+    "setor": "Telecomunicacoes",
+    "total_vagas": 32,
+    "descricoes_unicas": 17,
+    "taxa_diversidade": 53.125
+  },
+  {
+    "setor": "Juridica",
+    "total_vagas": 31,
+    "descricoes_unicas": 23,
+    "taxa_diversidade": 74.19354838709677
+  },
+  {
+    "setor": "arquitetura e design",
+    "total_vagas": 13,
+    "descricoes_unicas": 10,
+    "taxa_diversidade": 76.92307692307693
+  }
+]

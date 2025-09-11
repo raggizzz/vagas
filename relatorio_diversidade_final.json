@@ -1,0 +1,121 @@
+{
+  "total_vagas": 516,
+  "total_setores": 19,
+  "resultados_por_setor": [
+    {
+      "setor": "Administracao",
+      "total_vagas": 123,
+      "descricoes_unicas": 122,
+      "taxa_diversidade": 99.1869918699187
+    },
+    {
+      "setor": "Comercial e vendas",
+      "total_vagas": 14,
+      "descricoes_unicas": 14,
+      "taxa_diversidade": 100.0
+    },
+    {
+      "setor": "Comercio exterior",
+      "total_vagas": 15,
+      "descricoes_unicas": 14,
+      "taxa_diversidade": 93.33333333333333
+    },
+    {
+      "setor": "Comunicacao e marketing",
+      "total_vagas": 15,
+      "descricoes_unicas": 14,
+      "taxa_diversidade": 93.33333333333333
+    },
+    {
+      "setor": "Educacao",
+      "total_vagas": 29,
+      "descricoes_unicas": 28,
+      "taxa_diversidade": 96.55172413793103
+    },
+    {
+      "setor": "Engenharia",
+      "total_vagas": 20,
+      "descricoes_unicas": 20,
+      "taxa_diversidade": 100.0
+    },
+    {
+      "setor": "Financeira",
+      "total_vagas": 30,
+      "descricoes_unicas": 29,
+      "taxa_diversidade": 96.66666666666667
+    },
+    {
+      "setor": "Hotelaria e turismo",
+      "total_vagas": 13,
+      "descricoes_unicas": 12,
+      "taxa_diversidade": 92.3076923076923
+    },
+    {
+      "setor": "Industrial",
+      "total_vagas": 23,
+      "descricoes_unicas": 21,
+      "taxa_diversidade": 91.30434782608695
+    },
+    {
+      "setor": "Informatica",
+      "total_vagas": 22,
+      "descricoes_unicas": 21,
+      "taxa_diversidade": 95.45454545454545
+    },
+    {
+      "setor": "Juridica",
+      "total_vagas": 31,
+      "descricoes_unicas": 28,
+      "taxa_diversidade": 90.32258064516128
+    },
+    {
+      "setor": "Saude",
+      "total_vagas": 24,
+      "descricoes_unicas": 23,
+      "taxa_diversidade": 95.83333333333334
+    },
+    {
+      "setor": "ServicoSocial",
+      "total_vagas": 15,
+      "descricoes_unicas": 1,
+      "taxa_diversidade": 6.666666666666667
+    },
+    {
+      "setor": "Suprimentos",
+      "total_vagas": 29,
+      "descricoes_unicas": 29,
+      "taxa_diversidade": 100.0
+    },
+    {
+      "setor": "Tecnica",
+      "total_vagas": 23,
+      "descricoes_unicas": 13,
+      "taxa_diversidade": 56.52173913043478
+    },
+    {
+      "setor": "Telecomunicacoes",
+      "total_vagas": 32,
+      "descricoes_unicas": 19,
+      "taxa_diversidade": 59.375
+    },
+    {
+      "setor": "Telemarketing",
+      "total_vagas": 30,
+      "descricoes_unicas": 17,
+      "taxa_diversidade": 56.666666666666664
+    },
+    {
+      "setor": "arquitetura e design",
+      "total_vagas": 13,
+      "descricoes_unicas": 12,
+      "taxa_diversidade": 92.3076923076923
+    },
+    {
+      "setor": "pecuaria e veterinaria",
+      "total_vagas": 15,
+      "descricoes_unicas": 14,
+      "taxa_diversidade": 93.33333333333333
+    }
+  ],
+  "data_analise": "2024-01-11"
+}

@@ -1,0 +1,58 @@
+{
+  "total_vagas": 15,
+  "analise_salarial": {
+    "vagas_com_salario": 15,
+    "vagas_com_faixa_salarial": 0,
+    "percentual_com_salario": 100.0
+  },
+  "analise_habilidades": {
+    "total_habilidades_unicas": 6,
+    "top_10_habilidades": [
+      [
+        "Go",
+        15
+      ],
+      [
+        "C",
+        15
+      ],
+      [
+        "REST",
+        15
+      ],
+      [
+        "AI",
+        15
+      ],
+      [
+        "Excel",
+        12
+      ],
+      [
+        "nan",
+        3
+      ]
+    ]
+  },
+  "analise_empresas": {
+    "total_empresas_unicas": 4,
+    "empresas_com_mais_vagas": [
+      [
+        "nan",
+        12
+      ],
+      [
+        "o público PCD",
+        1
+      ],
+      [
+        "o público PCD - 99543",
+        1
+      ],
+      [
+        "o público PCD - 98392",
+        1
+      ]
+    ]
+  }
+}

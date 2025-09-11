@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Conexão Supabase</title>
+</head>
+<body>
+    <h1>Teste de Conexão com Supabase</h1>
+    <div id="status">Testando conexão...</div>
+    <div id="results"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        const SUPABASE_URL = 'https://houlztopqujrgxtbwmyh.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhvdWx6dG9wcXVqcmd4dGJ3bXloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY5Mzg1NTMsImV4cCI6MjA3MjUxNDU1M30.-eYbPW6pW2d-FjQHFe5OtoG0f61RmkXhXkU8HOIBXXU';
+        
+        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        
+        async function testConnection() {
+            const statusDiv = document.getElementById('status');
+            const resultsDiv = document.getElementById('results');
+            
+            try {
+                statusDiv.innerHTML = 'Testando conexão com Supabase...';
+                
+                // Teste 1: Verificar se consegue acessar a tabela jobs
+                const { data: jobs, error: jobsError } = await supabase
+                    .from('jobs')
+                    .select('id, title, company_name')
+                    .limit(5);
+                
+                if (jobsError) {
+                    statusDiv.innerHTML = `❌ Erro ao acessar tabela jobs: ${jobsError.message}`;
+                    console.error('Erro jobs:', jobsError);
+                    return;
+                }
+                
+                statusDiv.innerHTML = '✅ Conexão bem-sucedida!';
+                resultsDiv.innerHTML = `
+                    <h3>Primeiras 5 vagas encontradas:</h3>
+                    <ul>
+                        ${jobs.map(job => `<li><strong>${job.title}</strong> - ${job.company_name || 'Empresa não informada'}</li>`).join('')}
+                    </ul>
+                    <p>Total de vagas carregadas: ${jobs.length}</p>
+                `;
+                
+            } catch (error) {
+                statusDiv.innerHTML = `❌ Erro de conexão: ${error.message}`;
+                console.error('Erro:', error);
+            }
+        }
+        
+        // Executar teste quando a página carregar
+        window.addEventListener('load', testConnection);
+    </script>
+</body>
+</html>

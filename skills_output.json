@@ -1,0 +1,63 @@
+﻿{
+    "sectors":  [
+                    {
+                        "sector":  "Outros",
+                        "total_jobs":  15,
+                        "average_salary":  1199.29,
+                        "top_skills":  [
+                                           {
+                                               "skill":  "Cad",
+                                               "percentage":  73.3,
+                                               "job_count":  11
+                                           },
+                                           {
+                                               "skill":  "Excel",
+                                               "percentage":  53.3,
+                                               "job_count":  8
+                                           },
+                                           {
+                                               "skill":  "Conhecimentos Medicos",
+                                               "percentage":  46.7,
+                                               "job_count":  7
+                                           },
+                                           {
+                                               "skill":  "Resolucao Problemas",
+                                               "percentage":  40.0,
+                                               "job_count":  6
+                                           },
+                                           {
+                                               "skill":  "Comunicacao Telefonica",
+                                               "percentage":  40.0,
+                                               "job_count":  6
+                                           },
+                                           {
+                                               "skill":  "Ingles",
+                                               "percentage":  40.0,
+                                               "job_count":  6
+                                           },
+                                           {
+                                               "skill":  "Comunicacao",
+                                               "percentage":  33.3,
+                                               "job_count":  5
+                                           },
+                                           {
+                                               "skill":  "Sql",
+                                               "percentage":  33.3,
+                                               "job_count":  5
+                                           },
+                                           {
+                                               "skill":  "Normas Tecnicas",
+                                               "percentage":  26.7,
+                                               "job_count":  4
+                                           },
+                                           {
+                                               "skill":  "Java",
+                                               "percentage":  26.7,
+                                               "job_count":  4
+                                           }
+                                       ]
+                    }
+                ],
+    "total_jobs_analyzed":  15,
+    "last_updated":  "2025-09-11T11:45:24.607182"
+}

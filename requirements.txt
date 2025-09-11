@@ -1,0 +1,14 @@
+# API dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+
+# Database
+supabase==2.3.4
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.32.3
+
+# Production dependencies
+gunicorn==21.2.0

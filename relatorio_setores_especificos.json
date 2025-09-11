@@ -1,0 +1,48 @@
+{
+  "total_vagas_processadas": 510,
+  "setores_processados": {
+    "ServicoSocial": 12,
+    "Telecomunicacoes": 32,
+    "Telemarketing": 30,
+    "Tecnica": 23,
+    "Juridica": 30,
+    "Industrial": 22,
+    "Engenharia": 20,
+    "Comunicacao e marketing": 15,
+    "arquitetura e design": 13,
+    "pecuaria e veterinaria": 15,
+    "Suprimentos": 29,
+    "Saude": 23,
+    "Informatica": 22,
+    "Hotelaria e turismo": 13,
+    "Financeira": 30,
+    "Educacao": 29,
+    "Comercio exterior": 15,
+    "Comercial e vendas": 14,
+    "Administracao": 123
+  },
+  "descricoes_por_setor": {
+    "ServicoSocial": 5,
+    "Telecomunicacoes": 5,
+    "Comunicacao e marketing": 5,
+    "arquitetura e design": 5,
+    "Educacao": 5,
+    "Administracao": 5
+  },
+  "responsabilidades_por_setor": {
+    "ServicoSocial": 5,
+    "Telecomunicacoes": 5,
+    "Comunicacao e marketing": 5,
+    "arquitetura e design": 5,
+    "Educacao": 5,
+    "Administracao": 5
+  },
+  "habilidades_por_setor": {
+    "ServicoSocial": 7,
+    "Telecomunicacoes": 6,
+    "Comunicacao e marketing": 7,
+    "arquitetura e design": 7,
+    "Educacao": 7,
+    "Administracao": 7
+  }
+}

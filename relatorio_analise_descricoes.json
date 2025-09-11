@@ -1,0 +1,828 @@
+{
+  "total_vagas_analisadas": 271,
+  "problemas_identificados": {
+    "descricoes_concatenadas": 269,
+    "informacoes_misturadas": 0,
+    "dados_corrompidos": 271,
+    "empresas_incorretas": 19,
+    "localizacoes_incorretas": 14,
+    "responsabilidades_duplicadas": 204,
+    "habilidades_genericas": 0
+  },
+  "setores_analisados": {
+    "ServicoSocial": 12,
+    "Telecomunicacoes": 15,
+    "Telemarketing": 15,
+    "Tecnica": 12,
+    "Juridica": 15,
+    "Industrial": 14,
+    "Engenharia": 10,
+    "Comunicacao e marketing": 15,
+    "arquitetura e design": 13,
+    "pecuaria e veterinaria": 15,
+    "Suprimentos": 13,
+    "Saude": 13,
+    "Informatica": 8,
+    "Hotelaria e turismo": 13,
+    "Financeira": 15,
+    "Educacao": 14,
+    "Comercio exterior": 15,
+    "Comercial e vendas": 14,
+    "Administracao": 30
+  },
+  "empresas_problematicas": {
+    "Empresa Voltada Para O Ramo Da Construção Com Fornecimento De Material Desde Fundação Ate Acabamentos": 7,
+    "Empresa Esteja Em Conformidade Com Todas As Regulamentações E Leis De Exportação - Isso Inclui A Compreensão De Leis E Regulamentos Específicos De Cada País De Destino": 3,
+    "Empresa A Dom Casero É Uma Marca De Doces Artesanais Que Tem A Missão De Criar Memórias Afetivas Através De Cada Produto": 9
+  },
+  "exemplos_problemas": [
+    {
+      "vaga_id": 1,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/ajudante-geral/3285..."
+    },
+    {
+      "vaga_id": 2,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/coordenadora-de-pro..."
+    },
+    {
+      "vaga_id": 3,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/assistente-social/3..."
+    },
+    {
+      "vaga_id": 4,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/cuidador-social/330..."
+    },
+    {
+      "vaga_id": 5,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/monitor-de-inclusao..."
+    },
+    {
+      "vaga_id": 6,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/mediador/33123547/"
+    },
+    {
+      "vaga_id": 7,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/assistente-social-m..."
+    },
+    {
+      "vaga_id": 8,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/clt-imediato-at-aco..."
+    },
+    {
+      "vaga_id": 9,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/coordenador-de-proj..."
+    },
+    {
+      "vaga_id": 10,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/educador-a-social/3..."
+    },
+    {
+      "vaga_id": 11,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/assistente-social-s..."
+    },
+    {
+      "vaga_id": 12,
+      "setor": "ServicoSocial",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Reconhecida Em Gestão Em Cuidados",
+      "titulo": "https://www.catho.com.br/vagas/assistente-social-p..."
+    },
+    {
+      "vaga_id": 13,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/analista-tecnico-de..."
+    },
+    {
+      "vaga_id": 14,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/tecnico-de-redes/33..."
+    },
+    {
+      "vaga_id": 15,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/analista-de-infraes..."
+    },
+    {
+      "vaga_id": 16,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/tecnico-de-telecomu..."
+    },
+    {
+      "vaga_id": 17,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/coordenador-de-camp..."
+    },
+    {
+      "vaga_id": 18,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/fiscal-civil/330684..."
+    },
+    {
+      "vaga_id": 19,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/administrador-de-re..."
+    },
+    {
+      "vaga_id": 20,
+      "setor": "Telecomunicacoes",
+      "problemas": [
+        "Descrição concatenada com múltiplas vagas",
+        "Título contém URL"
+      ],
+      "empresa": "Empresa Confidencialpor Que",
+      "titulo": "https://www.catho.com.br/vagas/gerente-de-suporte-..."
+    }
+  ],
+  "estatisticas_por_setor": {
+    "ServicoSocial": {
+      "total_vagas": 12,
+      "problemas_encontrados": 12,
+      "empresas_unicas": [
+        "Empresa Reconhecida Em Gestão Em Cuidados"
+      ],
+      "responsabilidades_unicas": [
+        "Atuar no programa Escola Aberta com foco na integração e inclusão de pessoas com deficiência nas oficinas oferecidas. O(a) profissional será responsável por adaptar atividades…",
+        "Coordenar a equipe responsável pela execução do programa de acolhimento de crianças e adolescentes. Elaborar e acompanhar o planejamento estratégico das ações. Realizar a gestão…",
+        "Profissional será responsável por representar a instituição em reuniões e instâncias externas, acompanhar e orientar procedimentos internos junto às lideranças, desenvolver ações…",
+        "EMPRESA DE MÁQUINAS DE COSTURA - SKY TEC Receber e conferir mercadorias Atendimento ao público no balcão da loja Manter a organização e limpeza do local de trabalho Realizar…",
+        "Entrevistar por telefone e em visita, quando necessário, a família do paciente em avaliação, prestando esclarecimentos sobre a assistência domiciliar, obtendo…",
+        "Planejar, implementar e monitorar projetos sociais alinhados à missão da organização. \" Gerenciar equipes e parcerias com outras instituições e comunidades. \" Elaborar…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Go",
+        "Social Media",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 6,
+      "total_habilidades_unicas": 7
+    },
+    "Telecomunicacoes": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresa Confidencialpor Que"
+      ],
+      "responsabilidades_unicas": [
+        "Realizar inspeções e fiscalizações em obras civis. Verificar o cumprimento de normas e regulamentos. Elaborar relatórios técnicos. Experiência prévia como fiscal civil…",
+        "Responsável por diversas atividades da área técnica, incluindo, mas não se limitando a, como lançamento de cabos, instalação de equipamentos de campo, montagem de bastidores…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "C",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 2,
+      "total_habilidades_unicas": 4
+    },
+    "Telemarketing": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresa No Ramo De Impressão De Documentos Contrata"
+      ],
+      "responsabilidades_unicas": [
+        "Em parceria com a Gi Group, empresa no ramo de impressão de documentos contrata: Agente de atendimento ao cidadão Responsabilidades: - Receber o cidadão - Digitação de dados…",
+        "Realizar o atendimento personalizado aos clientes de sua carteira, acompanhando agendamentos para visita de admissão; entrando em contato com o paciente admitido para solicitar…",
+        "Realizar ligações para prospecção de clientes. Apresentar produtos e serviços da empresa. Registrar informações no sistema. Acompanhar e manter relacionamento com os clientes.Boa…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "AI",
+        "REST",
+        "C",
+        "Git",
+        "Marketing",
+        "Chef",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 3,
+      "total_habilidades_unicas": 8
+    },
+    "Tecnica": {
+      "total_vagas": 12,
+      "problemas_encontrados": 12,
+      "empresas_unicas": [
+        "Empresa De Trabalho Temporário Eireli"
+      ],
+      "responsabilidades_unicas": [
+        "Manutenção Preventiva: Realizar vistorias periódicas programadas nos sistemas instalados para verificar o estado dos equipamentos, cabos e conexões. Limpeza de câmeras, sensores…",
+        "Realizar atendimentos presenciais aos clientes Realizar manutenção preventiva e corretiva de equipamentos Configurar e instalar softwares e hardwares Documentar e reportar…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 2,
+      "total_habilidades_unicas": 6
+    },
+    "Juridica": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresa Confidencialpor Que"
+      ],
+      "responsabilidades_unicas": [
+        "Como Advogado(a) com experiência em Direito Cível. você terá como atividades: - Atuar em demandas de responsabilidade civil, com foco em ações indenizatórias por danos materiais e…",
+        "Supervisor de Licitação e Convênios- Ramo Educacional . O candidato ideal será responsável por liderar e supervisionar processos de licitação, garantindo a conformidade com as…",
+        "Estamos em busca de um(a) Assistente de Licitações proativo(a), com olhar técnico e atenção aos detalhes, para integrar nosso time e atuar na elaboração e acompanhamento de…",
+        "Auxiliar na análise de processos jurídicos Apoiar na elaboração de documentos legais Participar de reuniões com advogados Realizar pesquisa de jurisprudência Acompanhar prazos…",
+        "Disponibilidade para atuar em horário comercial e/ou diurno",
+        "Atuar no contencioso cível. \" Elaborar pareceres, memoriais, relatórios/resumos de processos, dar suporte ao atendimento e assistir cliente quando necessário. \" Atuar com…",
+        "Sólido conhecimento da CLT, súmulas, orientações jurisprudenciais e demais normas aplicáveis. Habilidade para atuar em audiências e realizar sustentações orais. Excelente…",
+        "Como Advogado(a) com experiência em Contencioso você terá como atividades: - Elaborar e revisar peças processuais complexas (iniciais, contestações, recursos e memoriais); …",
+        "-Analisar edital e elaborar checklist das exigências; -Preparar o volume de habilitação de habilitação e respectivos documentos; -Elaborar os volumes das propostas e planilhas…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "Git",
+        "Excel",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 9,
+      "total_habilidades_unicas": 8
+    },
+    "Industrial": {
+      "total_vagas": 14,
+      "problemas_encontrados": 14,
+      "empresas_unicas": [
+        "Hospitalares Para Esterilização"
+      ],
+      "responsabilidades_unicas": [
+        "Esta vaga também é destinada a Pessoas com Deficiência (PCD). Valorizamos a diversidade e incentivamos a candidatura de profissionais de todos os perfis. Atuar na Sala de Mescla…",
+        "• Efetuar serviços gerais de apoio à área industrial; • Atuar em todas as etapas do processo de fabricação, desde a matéria-prima até o produto acabado; • Ocupar postos que não requeiram operação de máquinas; • Seguir as normas de Boas Práticas de Fabricação (BPF); • Cumprir os procedimentos de Segurança Alimentar.Ensino fundamental completo. #Manpowergroup #Vagasmanpower #AjudanteDeProdução #ChãoDeFábrica #Indústria",
+        "• Efetuar serviços gerais de apoio à área industrial; • Atuar em todas as etapas do processo de fabricação, desde a matéria-prima até o produto acabado; • Ocupar postos que não…",
+        "• Efetuar serviços gerais de apoio à área industrial; • Atuar em todas as etapas do processo de fabricação, desde a matéria-prima até o produto acabado; • Ocupar postos que não requeiram operação de máquinas; • Seguir as normas de Boas Práticas de Fabricação; • Cumprir as normas de Segurança Alimentar.Ensino fundamental completo. #Manpowergroup #Vagasmanpower #AjudanteDeProdução #ChãoDeFábrica #Indústria",
+        "Principais responsabilidades: Será responsável pelo suporte técnico de campo; Será responsável pela gestão e acompanhamento dos indicadores da equipe sob sua supervisão…"
+      ],
+      "habilidades_unicas": [
+        "o público PCD",
+        "ABA",
+        "AI",
+        "REST",
+        "o público PCD - 99543",
+        "Excel",
+        "o público PCD - 98392",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 5,
+      "total_habilidades_unicas": 10
+    },
+    "Engenharia": {
+      "total_vagas": 10,
+      "problemas_encontrados": 10,
+      "empresas_unicas": [
+        "Empresarial Estrategica Em Solucoes De Recursos Humanos",
+        "Empresa Confidencialpor Que"
+      ],
+      "responsabilidades_unicas": [
+        "Acompanhar e garantir que a produção seja realizada da melhor maneira possível, para alcançar as metas do período. Monitorar a produção para resolver problemas Supervisionar e avaliar o desempenho do pessoal de produção Fazer com que as precauções de saúde e segurança sejam cumpridas Acompanha índices de produtividade para desenvolver táticas na melhoria contínua do fluxo dos processos. Gestão de funcionários, banco de horas, folgas.",
+        "Atender ordem de serviço preventivo ou corretivo, identificar problemas e defeitos em peças mecânicas, eletromecânicas, realizar testes. Trabalhar para diminuir o número de manutenções necessárias, trabalhar com foco na redução da gravidade das manutenções e atender prontamente os pedidos de manutenção feitos pelos clientes. Ensino médio completo, experiência de 6 meses na área de ar condicionado. mostrar menoscompartilhar",
+        "Realizar atendimento e coleta do cliente conferindo o pedido médico, documentos pessoais, confeccionando a guia de atendimento para realização dos exames; - Realizar orçamento dos…",
+        "* Realizar e garantir o adequado fluxo do atendimento e realização dos exames, controle dos insumos destas áreas e cumprimento das instruções técnicas, intervindo nos…",
+        "Atender ordem de serviço preventivo ou corretivo, identificar problemas e defeitos em peças mecânicas, eletromecânicas, realizar testes. Trabalhar para diminuir o número de…",
+        "Principais responsabilidades: Será responsável pelo suporte técnico de campo; Será responsável pela gestão e acompanhamento dos indicadores da equipe sob sua supervisão…",
+        "- Realizar atendimento e coleta do cliente conferindo o pedido médico, documentos pessoais, confeccionando a guia de atendimento para realização dos exames; - Realizar orçamento…",
+        "Realização de ensaios de recebimento em materiais e equipamentos adquiridos pelas concessionárias do grupo ou devolvidos pelas unidades regionais (UTDs). Esses…",
+        "Acompanhar a elaboração dos projetos e dos cronogramas físico e financeiro; Analisar propostas técnicas, instalar, configurar e inspecionar sistemas e equipamentos; Desenvolver os…",
+        "Atender ordem de serviço preventivo ou corretivo, identificar problemas e defeitos em peças mecânicas, eletromecânicas, realizar testes. Trabalhar para diminuir o número de manutenções necessárias, trabalhar com foco na redução da gravidade das manutenções e atender prontamente os pedidos de manutenção feitos pelos clientes. Ensino médio completo, experiência de 6 meses na área de ar condicionado."
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "ABA",
+        "AI",
+        "REST",
+        "Git",
+        "Excel",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 10,
+      "total_habilidades_unicas": 9
+    },
+    "Comunicacao e marketing": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresa Confidencialpor Que",
+        "Empresas E Na Sociedade"
+      ],
+      "responsabilidades_unicas": [
+        "• Desenvolver e executar estratégias de Social Media alinhadas aos objetivos de engajamento e geração de leads dos clientes. • Criar, programar e publicar conteúdo criativo e…",
+        "Responsável por executar rotinas de pesquisa e report no sistema de coleta de informações, representar a marca seguindo normas e diretrizes, realizar atendimento ao cliente com…"
+      ],
+      "habilidades_unicas": [
+        "Kanban",
+        "Vendas",
+        "Atendimento",
+        "Power BI",
+        "Tableau",
+        "ABA",
+        "AI",
+        "C",
+        "Git",
+        "REST",
+        "Scrum",
+        "Agile",
+        "Marketing",
+        "Go",
+        "Social Media",
+        "Excel"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 2,
+      "total_habilidades_unicas": 16
+    },
+    "arquitetura e design": {
+      "total_vagas": 13,
+      "problemas_encontrados": 13,
+      "empresas_unicas": [
+        "Hospitalares Ou De Diagnóstico ",
+        "Empresa Confidencialpor Que"
+      ],
+      "responsabilidades_unicas": [
+        "Desenvolver projetos de Instalações Prediais em sistema autocad e Revit , projetos de elétrica, Telecom e outros.Conhecimento em Autocad e Revit",
+        "* Realizar e garantir o adequado fluxo do atendimento e realização dos exames, controle dos insumos destas áreas e cumprimento das instruções técnicas, intervindo nos…",
+        "Desenvolver projetos de móveis planejados personalizados; Atender clientes, entender demandas e propor soluções criativas; Acompanhar o processo desde o briefing até a finalização…",
+        "Estamos em busca de um Técnico Projetista de Climatização, para contribuir com a equipe, desenvolvendo as seguintes atividades: Desenvolver projetos de Climatização…",
+        "Desenvolver projetos de Instalações Prediais em sistema autocad e Revit , projetos de elétrica, Telecom e/ou Hidraulica.Conhecimento em Autocad e Revit",
+        "O Grupo Tesoura de Ouro está em busca de um talentoso Produtor de Moda para se juntar à nossa equipe. Como Produtor de Moda, você será responsável por supervisionar e coordenar…",
+        "#Atividades# Criar peças gráficas para eventos, como banners, flyers e materiais promocionais; Desenvolver identidades visuais para eventos e campanhas; Trabalhar em conjunto com…"
+      ],
+      "habilidades_unicas": [
+        "o público PCD",
+        "Vendas",
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Git",
+        "Excel",
+        "Marketing",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 7,
+      "total_habilidades_unicas": 11
+    },
+    "pecuaria e veterinaria": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Hospitalveterinario"
+      ],
+      "responsabilidades_unicas": [
+        "- Gerenciar e coordenar as operações de vendas e assistência técnica de máquinas agrícolas. - Desenvolver estratégias para aumentar as vendas e expandir a participação de mercado…",
+        "Atuar como ponto de contato técnico e comercial com produtores e distribuidores Realizar visitas técnicas, treinamentos e demonstrações de produto Acompanhar o desempenho dos…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 2,
+      "total_habilidades_unicas": 7
+    },
+    "Suprimentos": {
+      "total_vagas": 13,
+      "problemas_encontrados": 13,
+      "empresas_unicas": [
+        "Hospitalares",
+        "Empresarial E Gestão De Pessoas"
+      ],
+      "responsabilidades_unicas": [
+        "Atuar com controle de estoque de materiais, reposição de estoque, acompanhamento do atendimento de pedidos, desenvolvendo bom relacionamento interpessoal com diversas áreas…",
+        "Vaga: Auxiliar Operacional / Ajudante Geral / Auxiliar Logístico Estamos contratando profissionais para atuar em nosso setor de Logística, realizando atividades simples e…",
+        "Contagem interna e externa. Realizar inventários periódicos Rastreabilidade de produtos Atender demandas de separação e envio de produtos Manter a organização do ambiente de…",
+        "Contagem interna e externa. Realizar inventários periódicos Rastreabilidade de produtos Atender demandas de separação e envio de produtos Manter a organização do ambiente de trabalhoExperiência prévia em estoque Conhecimento em recebimento e armazenagem de produtos Organização e atenção aos detalhes Conhecimento em sistemas de gestão de estoque Habilidade em trabalho em equipe",
+        "Vaga temporária de 270 dias Profissional irá desempenhar funções administrativas hospitalares. Obrigatório Ensino médio completo. Disponibilidade para atuar das 07h00 ás 19h00 - escala 12x36 Conhecimento básico em pacote office Noções de rotinas administrativas (arquivo, digitalização e organização de documentos, atendimento telefônico)",
+        "Controle e Organização: Manter o almoxarifado limpo e organizado, realizar inventários periódicos e garantir a fácil localização e identificação dos itens. Lançamento e Registro:…",
+        "Vaga temporária de 270 dias Profissional irá desempenhar funções administrativas hospitalares. Obrigatório Ensino médio completo. Disponibilidade para atuar das 07h00 ás 19h00 …",
+        "Planejar e coordenar as atividades operacionais do setor logístico Gerenciar equipes de trabalho, distribuindo tarefas e garantindo o cumprimento de metas Analisar indicadores de…",
+        "Vaga temporária de 270 dias Profissional irá desempenhar funções administrativas hospitalares. Obrigatório Ensino médio completo. Disponibilidade para atuar das 07h00 ás 19h00 - escala 12x36 Conhecimento básico em pacote office Noções de rotinas administrativas (arquivo, digitalização e organização de documentos, atendimento telefônico) mostrar menoscompartilhar",
+        "O Analista de Compras será responsável por conduzir negociações com fornecedores de menor faturamento, garantindo o abastecimento adequado dos produtos com foco em custo-benefício…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "ABA",
+        "AI",
+        "REST",
+        "Git",
+        "API",
+        "Excel",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 10,
+      "total_habilidades_unicas": 10
+    },
+    "Saude": {
+      "total_vagas": 13,
+      "problemas_encontrados": 13,
+      "empresas_unicas": [
+        "Hospitalares Referente A Nutrição De Pacientes",
+        "INEB - INSTITUTO DE NEFROLOGIA DE BRASILIA",
+        "Hospital Sírio "
+      ],
+      "responsabilidades_unicas": [
+        "Rotinas hospitalares referente a nutrição de pacientes. Ensino médio completo. Curso de nutrição. Conhecimentos em nutrição. Disponibilidade para atuar das 07h00 ás 19h00 …",
+        "Rotinas hospitalares referente a nutrição de pacientes. Ensino médio completo. Curso de nutrição. Conhecimentos em nutrição. Disponibilidade para atuar das 07h00 ás 19h00 - escala 12x36",
+        "Realizar atendimento e coleta do cliente conferindo o pedido médico, documentos pessoais, confeccionando a guia de atendimento para realização dos exames; - Realizar orçamento dos…",
+        "Realizar coleta e triagem de materiais para realização de exames laboratoriais; Executar etapas do processo analítico, controle interno de qualidade, inspeções e checagem das amostras; Centrifugar amostras biológicas e manipular equipamentos laboratoriais; Acondicionar material biológico para transporte; Formação mínima: Curso Técnico em Laboratório, Técnico em Análises Clínicas e/ou Patologia Clínica.",
+        "Contratação temporária de 90 dias com possibilidade de prorrogação. Empresa do segmento da saúde, com grande representatividade em seu mercado de atuação, contrata para atuar em…",
+        "- Realizar atividades inerentes ao cargo de acordo com o código de ética e as normas técnicas definido pelos órgãos reguladores da profissão, - Executar a assistência segura e…",
+        "Estamos contratando uma Auxiliar de Estética capacitada para realizar procedimentos corporais e faciais. Buscamos uma profissional comprometida, ágil e apaixonada por cuidar de…",
+        "- Realizar atendimento e coleta do cliente conferindo o pedido médico, documentos pessoais, confeccionando a guia de atendimento para realização dos exames; - Realizar orçamento…",
+        "Realizar coleta e triagem de materiais para realização de exames laboratoriais; Executar etapas do processo analítico, controle interno de qualidade, inspeções e checagem das…",
+        "Realizar depilação a laser (feminina e masculina) Atender os clientes com empatia e cordialidade Manter o ambiente limpo e organizado Oferecer e apresentar nossos serviços…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "Git",
+        "API",
+        "Excel",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 3,
+      "total_responsabilidades_unicas": 10,
+      "total_habilidades_unicas": 9
+    },
+    "Informatica": {
+      "total_vagas": 8,
+      "problemas_encontrados": 8,
+      "empresas_unicas": [
+        "Empresa De Trabalho Temporário Eireli",
+        "Empresa Ou Do Cliente",
+        "Empresa Não Serão Avaliados"
+      ],
+      "responsabilidades_unicas": [
+        "Coletar, organizar, tratar e interpretar grandes volumes de dados provenientes de diferentes fontes internas e externas; Desenvolver e manter dashboards e…",
+        "Realizar homologação de demandas desenvolvidas; execução de testes automatizados; registro e controle em bugtracking; testes de sistemas integrados via API utilizando postman e soapUI; elaboração de manuais em HTML; controle de ambiente de testes e publicação de bullds.Superior completo ou cursando na área de tecnologia. Experiência como Analista de testes automatizados.",
+        "Realizar homologação de demandas desenvolvidas; execução de testes automatizados; registro e controle em bugtracking; testes de sistemas integrados via API utilizando postman e…",
+        "Principais Responsabilidades: -Análise de Viabilidade: Analisar a viabilidade técnica, legal e urbanística de novas áreas para desenvolvimento de loteamentos, incluindo estudos…",
+        "Analista de Dados com Ênfase em Análise Financeira Responsável por coletar, estratificar, analisar dados financeiros e confeccionar relatórios gerenciais e estratégicos. Atuar…",
+        "Estamos em busca de um profissional para atuar no suporte administrativo com foco em sistemas, garantindo o correto funcionamento das ferramentas utilizadas pela empresa…"
+      ],
+      "habilidades_unicas": [
+        "SQL",
+        "CSS",
+        "PHP",
+        "API",
+        "HTML",
+        "Marketing",
+        "Linux",
+        "Vue",
+        "Vendas",
+        "Tableau",
+        "Machine Learning",
+        "Laravel",
+        "Java",
+        "Power BI",
+        "Sass",
+        "AI",
+        "REST",
+        "Git",
+        "Angular",
+        "Windows",
+        "C",
+        "Go",
+        "Excel",
+        "Python",
+        "JavaScript",
+        "ABA",
+        "React",
+        "MySQL",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 3,
+      "total_responsabilidades_unicas": 6,
+      "total_habilidades_unicas": 29
+    },
+    "Hotelaria e turismo": {
+      "total_vagas": 13,
+      "problemas_encontrados": 13,
+      "empresas_unicas": [
+        "Empresarial Estrategica Em Solucoes De Recursos Humanos",
+        "Empresa Confidencialpor Que"
+      ],
+      "responsabilidades_unicas": [
+        "Preparar alimentos de acordo com as receitas estabelecidas. Realizar a limpeza e organização da cozinha. Auxiliar no reabastecimento de estoque de alimentos. Experiência prévia…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "Excel",
+        "C",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 1,
+      "total_habilidades_unicas": 7
+    },
+    "Financeira": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresas Optantes Pelo Simples Nacional",
+        "Hospitalar",
+        "Empresas E Entes Soberanos Com Foco Na Precisão Técnica"
+      ],
+      "responsabilidades_unicas": [
+        "- Administrar a carteira de imóveis locados: controle de vencimentos, reajustes, renovações e rescisões; - Elaborar contratos de locação, compra e venda, aditivos e notificações; …",
+        "\u0005 Principais responsabilidades: - Processar admissões, demissões e alterações contratuais no sistema Domínio; - Calcular e conferir folha de pagamento, férias, 13º salário…",
+        "Responsável por liderar a equipe de análise de crédito soberano e corporativo, assegurando excelência técnica, alinhamento estratégico e conformidade com padrões internacionais…",
+        "Planejamento e Controle Gerencial: - Apoiar na elaboração de budget (orçamento) e forecast (projeções financeiras) - Realizar análises de variações entre valores planejados e…",
+        "Serviços administrativos de escritório pertinentes a rotina hospitalar, organização de documentos, arquivamento e controle. Ensino médio completo. Disponibilidade para atuar…",
+        "Realizar o atendimento aos clientes; Organizar documentos físicos e digitais; Conferir documentação encaminhada pelos clientes via malote; Digitalizar e arquivar documentações;…",
+        "Serviços administrativos de escritório pertinentes a rotina hospitalar, organização de documentos, arquivamento e controle. Ensino médio completo. Disponibilidade para atuar 12x36 das 07h00 ás 19h00. Conhecimentos básicos em informática. Vaga temporária 90 dias.",
+        "- Apoiar no planejamento, execução e acompanhamento de projetos estratégicos e operacionais; - Elaborar relatórios, cronogramas e indicadores de desempenho; - Suporte na análise…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "Atendimento",
+        "Power BI",
+        "ABA",
+        "AI",
+        "REST",
+        "Git",
+        "API",
+        "C",
+        "Go",
+        "Excel"
+      ],
+      "total_empresas_unicas": 3,
+      "total_responsabilidades_unicas": 8,
+      "total_habilidades_unicas": 11
+    },
+    "Educacao": {
+      "total_vagas": 14,
+      "problemas_encontrados": 14,
+      "empresas_unicas": [
+        "Empresa De Grande Porte",
+        "Empresaestar Cursando Ensino Superior Na Área De Exatas Conhecimento Sólido Em Matemática"
+      ],
+      "responsabilidades_unicas": [
+        "Desenvolver atividades e planejamento em uma turma de Berçário II (1 a 2 anos) Realizar as atividades com o auxilio das monitoras, informar aos pais sobre a dia das acrianças e , se necessário, dar explicações mais detalhadas sobre o dia de uma criança. Fazer relatório de desenvolvimento ao fim do trimestre. Ter experiência na educação infantil.",
+        "Ministrar aulas de reforço em Matemática, Física e Química Elaborar planos de estudo personalizados para os alunos Identificar as dificuldades dos alunos e desenvolver estratégias…",
+        "Desenvolver atividades em meio aquático e/ou em solo com o objetivo de estimular diferentes sistemas do corpo humano, promovendo o relaxamento, a melhoria da respiração, o equilíbrio, a coordenação motora e o desenvolvimento psicomotorFormação em educação física e expertise para realizar atividades com crianças deficientes auditivas, deficientes intelectuais e autistas de 0 a 12 anos",
+        "Desenvolver atividades e planejamento em uma turma de Berçário II (1 a 2 anos) Realizar as atividades com o auxilio das monitoras, informar aos pais sobre a dia das acrianças e …",
+        "Desenvolver atividades em meio aquático e/ou em solo com o objetivo de estimular diferentes sistemas do corpo humano, promovendo o relaxamento, a melhoria da respiração, o…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "ABA",
+        "AI",
+        "REST",
+        "Excel",
+        "C",
+        "Go",
+        "reforço de exatas",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 5,
+      "total_habilidades_unicas": 9
+    },
+    "Comercio exterior": {
+      "total_vagas": 15,
+      "problemas_encontrados": 15,
+      "empresas_unicas": [
+        "Empresa De Recrutamento E Seleção De Pessoal"
+      ],
+      "responsabilidades_unicas": [
+        "A Gi Group em parceria com empresa no segmento de automotivo contrata ANALISTA DE IMPORTAÇÃO PLENO com foco em operações de contêineres para atuar em São Bernardo…",
+        "Nós da AUNDE Brasil estamos a procura de uma pessoa para ocupar a posição de Analista de Comércio Exterior Pleno. O profissional será responsável por: - Realizar atividades…",
+        "AUXILIAR DE COMÉRCIO EXTERIOR A Cobra Rolamentos e Autopeças, líder no mercado de distribuição de autopeças e rolamentos, está buscando Auxiliar de comércio exterior para atuar…",
+        "Nós da AUNDE Brasil estamos a procura de uma pessoa para ocupar a posição de Auxiliar de Comércio Exterior. O profissional será responsável por: -Suportar a logística de…",
+        "???? Sobre a vaga: Buscamos um(a) profissional comprometido(a) e proativo(a) para atuar como Assistente de Comércio Exterior. Essa pessoa será responsável por dar suporte às…",
+        "Estamos em busca de um(a) Auxiliar de Importação e Exportação para apoiar as rotinas administrativas e operacionais da área. O profissional será responsável por conferir e…"
+      ],
+      "habilidades_unicas": [
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Go",
+        "Excel"
+      ],
+      "total_empresas_unicas": 1,
+      "total_responsabilidades_unicas": 6,
+      "total_habilidades_unicas": 6
+    },
+    "Comercial e vendas": {
+      "total_vagas": 14,
+      "problemas_encontrados": 14,
+      "empresas_unicas": [
+        "Empresa Oferecendo Suporte No Agendamento De Consultas E Exames",
+        "Empresa No Ramo De Telecom"
+      ],
+      "responsabilidades_unicas": [
+        "Atividades: - Realizará atendimento a clientes via WhatsApp, telefone e presencialmente na farmácia, explicando sobre medicações sólidas e líquidas manipuladas, devendo elaborar…",
+        "Realizar abastecimento de carnes in natura (entrar em camara fria, e abastecimento de freezers), e carnes secas. Realizar todas as pesquisas solicitadas pela empresa no app do agile, fazer o recebimento de cargas da friboi sempre que solicitado, atender altas demandas, pois as lojas da rota tem uma rotina bem puxada de recebimentos e abastecimentos, além do controle de fifo e lavagem dos freezers. atendendo também as demandas sazonais. Pesquisa de Share",
+        "Sobre a Vaga Estamos em busca de um(a) Gerente Comercial para atuar na expansão e no fortalecimento de nossa presença nas regiões Norte, Nordeste e Centro-Oeste do Brasil. Essa…",
+        "Realizar abastecimento de carnes in natura (entrar em camara fria, e abastecimento de freezers), e carnes secas. Realizar todas as pesquisas solicitadas pela empresa no app do…"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "Atendimento",
+        "ABA",
+        "AI",
+        "REST",
+        "C",
+        "Git",
+        "o público PCD - 98082",
+        "Agile",
+        "Asa Norte - DF",
+        "Marketing",
+        "Go",
+        "Excel"
+      ],
+      "total_empresas_unicas": 2,
+      "total_responsabilidades_unicas": 4,
+      "total_habilidades_unicas": 13
+    },
+    "Administracao": {
+      "total_vagas": 30,
+      "problemas_encontrados": 30,
+      "empresas_unicas": [
+        "Empresa Febracis Brasília Na Asa Norte - Df",
+        "Empresa No Ramo De Home Center Região De Atendimento",
+        "Empresa Confidencialpor Que",
+        "Empresa Cidadã",
+        "Empresarial Estrategica Em Solucoes De Recursos Humanos",
+        "Empresa Comprometida Com O Seu Desenvolvimento E Que Reconhece E Celebra O Seu Talento"
+      ],
+      "responsabilidades_unicas": [
+        "Realizar atendimento telefônico e presencial Organizar e controlar a agenda da equipe Realizar atividades administrativas como arquivamento e controle de documentosExperiência anterior como recepcionista administrativo Conhecimento em rotinas administrativas Boa comunicação e relacionamento interpessoal Formação em Administração ou áreas afins Conhecimento em sistema ERP Inglês intermediário",
+        "Pré-requisitos: - Experiência com atendimento ao público; - Boa comunicação verbal e escrita. - Conhecimento em pacote Office; - Ensino médio completo. Função: - Realizará…",
+        "A Click Talentos RH busca uma recepcionista para atuar no nosso cliente, uma Clínica referência em Cirurgia Plástica e Dermatologia em Brasília, reconhecida como um verdadeiro…",
+        "PROMOTOR DE VENDAS EXTERNO Atividades: Abordagem e sondagem das pessoas que estão passando pela rua, argumentar e reverter as negativas, realizar venda, portabilidade e ativação…",
+        "Realizar atendimento telefônico e presencial Organizar e controlar a agenda da equipe Realizar atividades administrativas como arquivamento e controle de documentosExperiência…",
+        "Atender e direcionar clientes e visitantes Realizar o atendimento telefônico Atendimento ao Whats app Auxiliar em atividades administrativas Manter a recepção limpa e…",
+        "Serviços administrativos de escritório pertinentes a rotina hospitalar, organização de documentos, arquivamento e controle. Ensino médio completo. Disponibilidade para atuar 12x36 das 07h00 ás 19h00. Conhecimentos básicos em informática. Vaga temporária 90 dias.",
+        "Coordenar as atividades da equipe de vendas Desenvolver estratégias de vendas e metas de desempenho Realizar o acompanhamento e a análise de resultadosExperiência comprovada na área comercial Conhecimento em técnicas de vendas Habilidade em liderança de equipe Formação superior em Administração, Marketing ou áreas relacionadas",
+        "O Auxiliar Administrativo Júnior é responsável por oferecer suporte às rotinas administrativas da empresa, garantindo a organização, controle e fluxo de informações nos diferentes…",
+        "VENDEDOR(A) SR. – BASE EM BRASÍLIA Estamos em busca de um(a) profissional para atuar na área comercial como Vendedor Sr. com foco em prospecção, atendimento a clientes e…",
+        "- Administrar a carteira de imóveis locados: controle de vencimentos, reajustes, renovações e rescisões; - Elaborar contratos de locação, compra e venda, aditivos e notificações; …"
+      ],
+      "habilidades_unicas": [
+        "Vendas",
+        "ABA",
+        "AI",
+        "Instituto de Estética de Cursos Livres e Pós",
+        "no Sudoeste",
+        "REST",
+        "C",
+        "Git",
+        "API",
+        "Excel",
+        "Marketing",
+        "Go",
+        "Atendimento"
+      ],
+      "total_empresas_unicas": 6,
+      "total_responsabilidades_unicas": 11,
+      "total_habilidades_unicas": 13
+    }
+  }
+}

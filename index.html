@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Vagas - Encontre sua próxima oportunidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Portal de Vagas</a>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#vagas">Vagas</a></li>
+                        <li><a href="#empresas">Empresas</a></li>
+                        <li><a href="#estatisticas">Estatísticas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-input">
+                    <input type="text" id="searchInput" placeholder="Buscar por cargo, empresa ou palavra-chave...">
+                </div>
+                <button class="btn-search" id="searchButton">Buscar</button>
+            </div>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="locationFilter">Localização</label>
+                    <select id="locationFilter">
+                        <option value="">Todas as localidades</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="companyFilter">Empresa</label>
+                    <select id="companyFilter">
+                        <option value="">Todas as empresas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="minSalaryFilter">Salário mínimo</label>
+                    <input type="number" id="minSalaryFilter" placeholder="Ex: 3000">
+                </div>
+                <div class="filter-group">
+                    <label for="maxSalaryFilter">Salário máximo</label>
+                    <input type="number" id="maxSalaryFilter" placeholder="Ex: 8000">
+                </div>
+                <button class="btn-clear" id="clearFilters">Limpar filtros</button>
+            </div>
+     </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number" id="totalJobs">0</span>
+                    <span class="stat-label">Vagas Disponíveis</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="totalCompanies">0</span>
+                    <span class="stat-label">Empresas Parceiras</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="avgSalary">R$ 0</span>
+                    <span class="stat-label">Salário Médio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="content-header">
+                <h2>Vagas Disponíveis</h2>
+                <div class="results-info" id="resultsInfo">Carregando...</div>
+            </div>
+            
+            <!-- Loading -->
+            <div id="loading" class="loading" style="display: none;">
+                Carregando vagas...
+            </div>
+            
+            <!-- Jobs Grid -->
+            <div class="jobs-grid" id="jobsContainer">
+                <!-- Jobs will be loaded here -->
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Job Details Modal -->
+    <div id="jobModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Detalhes da Vaga</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body" id="modalJobContent">
+                <!-- Job details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portal de Vagas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

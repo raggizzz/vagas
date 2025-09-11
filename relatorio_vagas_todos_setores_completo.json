@@ -1,0 +1,213 @@
+{
+  "total_vagas": 516,
+  "analise_salarial": {
+    "vagas_com_salario": 516,
+    "vagas_com_faixa_salarial": 0,
+    "percentual_com_salario": 100.0
+  },
+  "analise_habilidades": {
+    "total_habilidades_unicas": 54,
+    "top_15_habilidades": [
+      [
+        "C",
+        516
+      ],
+      [
+        "AI",
+        434
+      ],
+      [
+        "ABA",
+        359
+      ],
+      [
+        "Atendimento",
+        335
+      ],
+      [
+        "Go",
+        324
+      ],
+      [
+        "REST",
+        292
+      ],
+      [
+        "Excel",
+        232
+      ],
+      [
+        "Vendas",
+        198
+      ],
+      [
+        "Git",
+        157
+      ],
+      [
+        "Marketing",
+        117
+      ],
+      [
+        "Social Media",
+        30
+      ],
+      [
+        "API",
+        30
+      ],
+      [
+        "Chef",
+        17
+      ],
+      [
+        "Agile",
+        17
+      ],
+      [
+        "Tableau",
+        16
+      ]
+    ]
+  },
+  "analise_empresas": {
+    "total_empresas_unicas": 148,
+    "empresas_com_mais_vagas": [
+      [
+        "Empresa Confidencialpor Que",
+        87
+      ],
+      [
+        "Empresarial Estrategica Em Solucoes De Recursos Humanos",
+        20
+      ],
+      [
+        "Empresa Reconhecida Em Gestão Em Cuidados",
+        15
+      ],
+      [
+        "Empresa No Ramo De Impressão De Documentos Contrata",
+        15
+      ],
+      [
+        "Hospitalveterinario",
+        15
+      ],
+      [
+        "Hospitalares Para Esterilização",
+        14
+      ],
+      [
+        "Empresa De Trabalho Temporário Eireli",
+        13
+      ],
+      [
+        "Empresa De Recrutamento E Seleção De Pessoal",
+        12
+      ],
+      [
+        "Empresa No Ramo De Home Center Região De Atendimento",
+        10
+      ],
+      [
+        "Empresaestar Cursando Ensino Superior Na Área De Exatas Conhecimento Sólido Em Matemática",
+        9
+      ]
+    ]
+  },
+  "analise_setores": {
+    "total_setores_unicos": 19,
+    "setores_com_mais_vagas": [
+      [
+        "Administracao",
+        123
+      ],
+      [
+        "Telecomunicacoes",
+        32
+      ],
+      [
+        "Juridica",
+        31
+      ],
+      [
+        "Telemarketing",
+        30
+      ],
+      [
+        "Financeira",
+        30
+      ],
+      [
+        "Suprimentos",
+        29
+      ],
+      [
+        "Educacao",
+        29
+      ],
+      [
+        "Saude",
+        24
+      ],
+      [
+        "Tecnica",
+        23
+      ],
+      [
+        "Industrial",
+        23
+      ]
+    ]
+  },
+  "analise_localizacao": {
+    "total_estados_unicos": 53,
+    "estados_com_mais_vagas": [
+      [
+        "DF",
+        157
+      ],
+      [
+        "gr",
+        29
+      ],
+      [
+        "se",
+        29
+      ],
+      [
+        "co",
+        25
+      ],
+      [
+        "SP",
+        23
+      ],
+      [
+        "MT",
+        17
+      ],
+      [
+        "ma",
+        17
+      ],
+      [
+        "SC",
+        15
+      ],
+      [
+        "Em",
+        15
+      ],
+      [
+        "An",
+        13
+      ]
+    ]
+  },
+  "analise_descricoes": {
+    "vagas_com_multiplos_segmentos": 516,
+    "vagas_com_responsabilidades_extraidas": 408,
+    "media_segmentos_por_vaga": 19.84
+  }
+}

@@ -1,0 +1,267 @@
+sector,skill,alias
+Comercial/Vendas,comunicacao,comunicacao
+Comercial/Vendas,comunicacao,comunicação
+Comercial/Vendas,comunicacao,atendimento
+Comercial/Vendas,comunicacao,relacionamento
+Comercial/Vendas,trabalho em equipe,equipe
+Comercial/Vendas,trabalho em equipe,colaboracao
+Comercial/Vendas,trabalho em equipe,colaboração
+Comercial/Vendas,crm,crm
+Comercial/Vendas,crm,customer relationship
+Comercial/Vendas,crm,gestao de clientes
+Comercial/Vendas,prospeccao de clientes,prospeccao
+Comercial/Vendas,prospeccao de clientes,prospecção
+Comercial/Vendas,prospeccao de clientes,captacao
+Comercial/Vendas,prospeccao de clientes,captação
+Comercial/Vendas,vendas,vendas
+Comercial/Vendas,vendas,comercial
+Comercial/Vendas,vendas,negociacao
+Comercial/Vendas,vendas,negociação
+Administracao,organizacao,organizacao
+Administracao,organizacao,organização
+Administracao,organizacao,organizacional
+Administracao,planejamento estrategico,planejamento
+Administracao,planejamento estrategico,estrategico
+Administracao,planejamento estrategico,estratégico
+Administracao,excel,excel
+Administracao,excel,planilhas
+Administracao,excel,microsoft excel
+Administracao,controle financeiro,financeiro
+Administracao,controle financeiro,controle
+Administracao,controle financeiro,financas
+Administracao,controle financeiro,finanças
+Saude,atendimento ao paciente,atendimento
+Saude,atendimento ao paciente,paciente
+Saude,atendimento ao paciente,cuidado
+Saude,conhecimentos medicos,medicos
+Saude,conhecimentos medicos,médicos
+Saude,conhecimentos medicos,medicina
+Saude,conhecimentos medicos,clinico
+Saude,conhecimentos medicos,clínico
+Saude,primeiros socorros,primeiros socorros
+Saude,primeiros socorros,emergencia
+Saude,primeiros socorros,emergência
+Saude,primeiros socorros,socorro
+Saude,sistemas hospitalares,sistemas
+Saude,sistemas hospitalares,hospitalar
+Saude,sistemas hospitalares,prontuario
+Saude,sistemas hospitalares,prontuário
+Agricultura,manejo de culturas,manejo
+Agricultura,manejo de culturas,culturas
+Agricultura,manejo de culturas,plantio
+Agricultura,irrigacao,irrigacao
+Agricultura,irrigacao,irrigação
+Agricultura,irrigacao,agua
+Agricultura,irrigacao,água
+Agricultura,controle de pragas,pragas
+Agricultura,controle de pragas,controle
+Agricultura,controle de pragas,defensivos
+Agricultura,agricultura sustentavel,sustentavel
+Agricultura,agricultura sustentavel,sustentável
+Agricultura,agricultura sustentavel,organico
+Agricultura,agricultura sustentavel,orgânico
+Engenharia,cad,cad
+Engenharia,cad,autocad
+Engenharia,cad,solidworks
+Engenharia,cad,desenho tecnico
+Engenharia,cad,desenho técnico
+Engenharia,resolucao de problemas,resolucao
+Engenharia,resolucao de problemas,resolução
+Engenharia,resolucao de problemas,problemas
+Engenharia,resolucao de problemas,solucoes
+Engenharia,resolucao de problemas,soluções
+Engenharia,excel,excel
+Engenharia,excel,planilhas
+Engenharia,excel,microsoft excel
+Engenharia,normas tecnicas,normas
+Engenharia,normas tecnicas,técnicas
+Engenharia,normas tecnicas,abnt
+Engenharia,normas tecnicas,iso
+Informatica/TI/Engenharia da Computacao,python,python
+Informatica/TI/Engenharia da Computacao,python,programacao
+Informatica/TI/Engenharia da Computacao,python,programação
+Informatica/TI/Engenharia da Computacao,cloud,cloud
+Informatica/TI/Engenharia da Computacao,cloud,aws
+Informatica/TI/Engenharia da Computacao,cloud,azure
+Informatica/TI/Engenharia da Computacao,cloud,gcp
+Informatica/TI/Engenharia da Computacao,cloud,nuvem
+Informatica/TI/Engenharia da Computacao,power bi,power bi
+Informatica/TI/Engenharia da Computacao,power bi,powerbi
+Informatica/TI/Engenharia da Computacao,power bi,business intelligence
+Informatica/TI/Engenharia da Computacao,power bi,bi
+Informatica/TI/Engenharia da Computacao,devops,devops
+Informatica/TI/Engenharia da Computacao,devops,ci/cd
+Informatica/TI/Engenharia da Computacao,devops,docker
+Informatica/TI/Engenharia da Computacao,devops,kubernetes
+Atendimento/Call Center,comunicacao,comunicacao
+Atendimento/Call Center,comunicacao,comunicação
+Atendimento/Call Center,comunicacao,atendimento
+Atendimento/Call Center,comunicacao telefonica,telefonica
+Atendimento/Call Center,comunicacao telefonica,telefônica
+Atendimento/Call Center,comunicacao telefonica,telefone
+Atendimento/Call Center,resolucao de conflitos,conflitos
+Atendimento/Call Center,resolucao de conflitos,resolucao
+Atendimento/Call Center,resolucao de conflitos,resolução
+Atendimento/Call Center,sistemas crm,crm
+Atendimento/Call Center,sistemas crm,sistema
+Atendimento/Call Center,sistemas crm,customer
+Contabilidade,legislacao fiscal,legislacao
+Contabilidade,legislacao fiscal,legislação
+Contabilidade,legislacao fiscal,fiscal
+Contabilidade,legislacao fiscal,tributaria
+Contabilidade,legislacao fiscal,tributária
+Contabilidade,demonstracoes contabeis,demonstracoes
+Contabilidade,demonstracoes contabeis,demonstrações
+Contabilidade,demonstracoes contabeis,contabeis
+Contabilidade,demonstracoes contabeis,contábeis
+Contabilidade,demonstracoes contabeis,balanco
+Contabilidade,demonstracoes contabeis,balanço
+Contabilidade,auditoria,auditoria
+Contabilidade,auditoria,audit
+Contabilidade,auditoria,controle interno
+Contabilidade,excel,excel
+Contabilidade,excel,planilhas
+Contabilidade,excel,microsoft excel
+Industrial,operacao de maquinas,maquinas
+Industrial,operacao de maquinas,máquinas
+Industrial,operacao de maquinas,operacao
+Industrial,operacao de maquinas,operação
+Industrial,operacao de maquinas,equipamentos
+Industrial,controle de qualidade,qualidade
+Industrial,controle de qualidade,controle
+Industrial,controle de qualidade,iso 9001
+Industrial,controle de qualidade,qms
+Industrial,seguranca do trabalho,seguranca
+Industrial,seguranca do trabalho,segurança
+Industrial,seguranca do trabalho,nr
+Industrial,seguranca do trabalho,epi
+Industrial,seguranca do trabalho,cipa
+Industrial,manutencao,manutencao
+Industrial,manutencao,manutenção
+Industrial,manutencao,preventiva
+Industrial,manutencao,corretiva
+Industrial,manutencao,preditiva
+Logistica,gestao de estoque,estoque
+Logistica,gestao de estoque,gestao
+Logistica,gestao de estoque,gestão
+Logistica,gestao de estoque,inventario
+Logistica,gestao de estoque,inventário
+Logistica,transporte,transporte
+Logistica,transporte,frete
+Logistica,transporte,entrega
+Logistica,transporte,distribuicao
+Logistica,transporte,distribuição
+Logistica,wms,wms
+Logistica,wms,warehouse
+Logistica,wms,armazem
+Logistica,wms,armazém
+Logistica,supply chain,supply chain
+Logistica,supply chain,cadeia de suprimentos
+Logistica,supply chain,suprimentos
+Educacao,didatica,didatica
+Educacao,didatica,didática
+Educacao,didatica,ensino
+Educacao,didatica,pedagogia
+Educacao,planejamento de aulas,planejamento
+Educacao,planejamento de aulas,aulas
+Educacao,planejamento de aulas,curriculo
+Educacao,planejamento de aulas,currículo
+Educacao,gestao de sala de aula,gestao
+Educacao,gestao de sala de aula,gestão
+Educacao,gestao de sala de aula,sala de aula
+Educacao,gestao de sala de aula,disciplina
+Educacao,tecnologias educacionais,tecnologias
+Educacao,tecnologias educacionais,educacionais
+Educacao,tecnologias educacionais,ead
+Educacao,tecnologias educacionais,digital
+Marketing,marketing digital,marketing
+Marketing,marketing digital,digital
+Marketing,marketing digital,online
+Marketing,redes sociais,redes sociais
+Marketing,redes sociais,social media
+Marketing,redes sociais,facebook
+Marketing,redes sociais,instagram
+Marketing,redes sociais,linkedin
+Marketing,google ads,google ads
+Marketing,google ads,adwords
+Marketing,google ads,ppc
+Marketing,google ads,sem
+Marketing,seo,seo
+Marketing,seo,otimizacao
+Marketing,seo,otimização
+Marketing,seo,google
+Marketing,analytics,analytics
+Marketing,analytics,google analytics
+Marketing,analytics,metricas
+Marketing,analytics,métricas
+Recursos Humanos,recrutamento,recrutamento
+Recursos Humanos,recrutamento,selecao
+Recursos Humanos,recrutamento,seleção
+Recursos Humanos,recrutamento,contratacao
+Recursos Humanos,recrutamento,contratação
+Recursos Humanos,gestao de pessoas,gestao
+Recursos Humanos,gestao de pessoas,gestão
+Recursos Humanos,gestao de pessoas,pessoas
+Recursos Humanos,gestao de pessoas,rh
+Recursos Humanos,legislacao trabalhista,legislacao
+Recursos Humanos,legislacao trabalhista,legislação
+Recursos Humanos,legislacao trabalhista,trabalhista
+Recursos Humanos,legislacao trabalhista,clt
+Recursos Humanos,treinamento,treinamento
+Recursos Humanos,treinamento,capacitacao
+Recursos Humanos,treinamento,capacitação
+Recursos Humanos,treinamento,desenvolvimento
+Juridico,direito civil,direito
+Juridico,direito civil,civil
+Juridico,direito civil,codigo civil
+Juridico,direito civil,código civil
+Juridico,direito trabalhista,trabalhista
+Juridico,direito trabalhista,trabalho
+Juridico,direito trabalhista,clt
+Juridico,direito penal,penal
+Juridico,direito penal,criminal
+Juridico,direito penal,codigo penal
+Juridico,direito penal,código penal
+Juridico,processo civil,processo
+Juridico,processo civil,processual
+Juridico,processo civil,cpc
+Juridico,oab,oab
+Juridico,oab,ordem dos advogados
+Juridico,oab,advogado
+Turismo/Hotelaria,atendimento ao cliente,atendimento
+Turismo/Hotelaria,atendimento ao cliente,cliente
+Turismo/Hotelaria,atendimento ao cliente,hospitalidade
+Turismo/Hotelaria,recepcao,recepcao
+Turismo/Hotelaria,recepcao,recepção
+Turismo/Hotelaria,recepcao,front desk
+Turismo/Hotelaria,recepcao,check in
+Turismo/Hotelaria,idiomas,idiomas
+Turismo/Hotelaria,idiomas,ingles
+Turismo/Hotelaria,idiomas,inglês
+Turismo/Hotelaria,idiomas,espanhol
+Turismo/Hotelaria,idiomas,frances
+Turismo/Hotelaria,idiomas,francês
+Turismo/Hotelaria,sistemas hoteleiros,sistemas
+Turismo/Hotelaria,sistemas hoteleiros,hoteleiros
+Turismo/Hotelaria,sistemas hoteleiros,pms
+Turismo/Hotelaria,sistemas hoteleiros,opera
+Financeiro,analise financeira,analise
+Financeiro,analise financeira,análise
+Financeiro,analise financeira,financeira
+Financeiro,analise financeira,fluxo de caixa
+Financeiro,excel avancado,excel
+Financeiro,excel avancado,avancado
+Financeiro,excel avancado,avançado
+Financeiro,excel avancado,planilhas
+Financeiro,excel avancado,macros
+Financeiro,power bi,power bi
+Financeiro,power bi,powerbi
+Financeiro,power bi,business intelligence
+Financeiro,power bi,bi
+Financeiro,sap,sap
+Financeiro,sap,erp
+Financeiro,sap,sistema integrado
+Financeiro,controles internos,controles
+Financeiro,controles internos,internos
+Financeiro,controles internos,auditoria
+Financeiro,controles internos,compliance
