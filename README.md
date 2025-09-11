@@ -112,20 +112,16 @@ git push heroku main
 
 ⚠️ **Troubleshooting Deploy:**
 
-**Erro de compilação pydantic-core no Render:**
-Se você encontrar o erro "Read-only file system" durante a compilação do `pydantic-core`, isso acontece porque o Render usa um sistema de arquivos somente leitura que impede a compilação de pacotes Rust.
-
-**Solução:**
-1. Use `requirements-simple.txt` no comando de build
-2. Este arquivo contém versões pré-compiladas compatíveis
-3. No Render, configure:
-   - **Build Command**: `pip install -r requirements-simple.txt`
-   - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
-
-**Versões testadas e funcionais:**
-- pydantic==2.4.2 (ao invés de 2.5.2)
-- supabase==2.3.0 (ao invés de 2.3.4)
-- requests==2.31.0 (ao invés de 2.32.3)
+**Erro de Compilação pydantic-core no Render:**
+- **Causa:** Sistema de arquivos somente leitura impede compilação de dependências Rust
+- **Solução Primária:** Use `requirements-simple.txt` com versões fixas pré-compiladas
+- **Solução Alternativa:** Se ainda falhar, use `requirements-minimal.txt` (versões mais antigas)
+- **Build Command:** `pip install -r requirements-simple.txt` ou `pip install -r requirements-minimal.txt`
+- **Start Command:** `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
+- **Estratégia:** Versões específicas com wheels pré-compilados garantidos
+- **Arquivos disponíveis:**
+  - `requirements-simple.txt`: Versões modernas (FastAPI 0.100.0, Pydantic 2.0.3)
+  - `requirements-minimal.txt`: Versões mais antigas e estáveis (FastAPI 0.95.2, Pydantic 1.10.12)
 
 ## 🔧 Configuração
 
