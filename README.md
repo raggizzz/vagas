@@ -1,199 +1,267 @@
-# API de Vagas e Skills
+# 🚀 API de Vagas e Skills
 
-API para análise de vagas de emprego e extração de habilidades reais organizadas por setor.
+Uma API REST moderna desenvolvida em FastAPI para consulta e análise de vagas de emprego, conectada ao Supabase.
 
-## 🚀 Funcionalidades
+## 📋 Visão Geral
 
-- **Listagem de Vagas**: Acesso completo aos dados das vagas sem modificações
-- **Análise de Skills por Setor**: Extração automática de habilidades técnicas e soft skills das descrições reais das vagas
-- **Análise Avançada**: Uso de regex patterns para identificação precisa de tecnologias e competências
-- **Filtros de Qualidade**: Apenas skills com pelo menos 2 ocorrências e setores com mínimo de 3 vagas
+Esta API permite:
+- ✅ Listar vagas de emprego com paginação
+- 🔍 Filtrar vagas por setor, modalidade, localização e regime
+- 📊 Analisar estatísticas de skills por setor
+- 🔗 Integração completa com Supabase
+- 📚 Documentação interativa (Swagger/ReDoc)
 
-## 📋 Endpoints
+## 🚀 Quick Start
 
-### `GET /`
-Informações básicas da API e lista de endpoints disponíveis.
-
-### `GET /jobs`
-Retorna todas as vagas da base de dados.
-
-**Parâmetros:**
-- `limit` (opcional): Número máximo de vagas (padrão: 100)
-- `offset` (opcional): Número de vagas a pular (padrão: 0)
-
-### `GET /skills-by-sector`
-Retorna habilidades mais requisitadas organizadas por setor, extraídas automaticamente das descrições reais das vagas.
-
-**Funcionalidades:**
-- Extração de skills técnicas (Python, Java, JavaScript, SQL, etc.)
-- Identificação de soft skills (Comunicação, Liderança, etc.)
-- Análise com padrões regex para maior precisão
-- Filtros de qualidade automáticos
-
-## 🛠️ Tecnologias
-
-- **FastAPI**: Framework web moderno e rápido
-- **Supabase**: Base de dados PostgreSQL
-- **Pydantic**: Validação de dados
-- **Uvicorn/Gunicorn**: Servidor ASGI para produção
-
-## 📦 Instalação Local
-
-1. Clone o repositório:
+### 1. Instalação Rápida
 ```bash
-git clone https://github.com/SEU_USUARIO/vagas-skills-api.git
-cd vagas-skills-api
-```
+# Clone o repositório
+git clone <url-do-repositorio>
+cd BancoDeDados
 
-2. Instale as dependências:
-```bash
-# Para desenvolvimento local
-pip install -r requirements.txt
+# Instalar dependências
+pip install fastapi uvicorn supabase python-dotenv
 
-# Para deploy (se houver problemas de compilação)
-pip install -r requirements-simple.txt
-```
-
-3. Configure as variáveis de ambiente:
-```bash
+# Configurar ambiente
 cp .env.example .env
-# Edite o arquivo .env com suas credenciais do Supabase
+# Editar .env com suas credenciais do Supabase
+
+# Executar API
+python api_vagas_skills.py
 ```
 
-4. Execute a API:
+### 2. Testar API
+```bash
+# Verificar se está funcionando
+curl http://localhost:8000/
+
+# Listar primeiras 10 vagas
+curl "http://localhost:8000/jobs?limit=10"
+
+# Filtrar vagas de tecnologia remotas
+curl "http://localhost:8000/jobs-filtered?setor=Tecnologia&modalidade=Remoto"
+```
+
+### 3. Documentação Interativa
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+
+## 📁 Estrutura do Projeto
+
+```
+BancoDeDados/
+├── api_vagas_skills.py              # 🎯 API principal
+├── test_api.py                      # 🧪 Testes automatizados
+├── exemplos_uso_api.py              # 📝 Exemplos práticos de uso
+├── requirements.txt                 # 📦 Dependências
+├── .env.example                     # ⚙️ Exemplo de configuração
+├── README.md                        # 📖 Este arquivo
+├── API_VAGAS_SKILLS_DOCUMENTATION.md # 📚 Documentação técnica completa
+├── DEPLOY_GUIDE.md                  # 🚀 Guia de deploy e configuração
+└── vagas_para_supabase.json         # 📊 Dados de exemplo
+```
+
+## 🔗 Endpoints Principais
+
+| Endpoint | Método | Descrição |
+|----------|--------|-----------|
+| `/` | GET | Informações da API |
+| `/jobs` | GET | Listar todas as vagas |
+| `/jobs-filtered` | GET | Filtrar vagas por critérios |
+| `/skills-by-sector` | GET | Estatísticas de skills por setor |
+
+## 📊 Exemplos de Uso
+
+### Python
+```python
+import requests
+
+# Listar vagas
+response = requests.get("http://localhost:8000/jobs?limit=10")
+vagas = response.json()
+
+# Filtrar vagas
+response = requests.get("http://localhost:8000/jobs-filtered", params={
+    "setor": "Tecnologia",
+    "modalidade": "Remoto"
+})
+vagas_filtradas = response.json()
+```
+
+### JavaScript
+```javascript
+// Listar vagas
+const response = await fetch('http://localhost:8000/jobs?limit=10');
+const vagas = await response.json();
+
+// Filtrar vagas
+const filteredResponse = await fetch(
+  'http://localhost:8000/jobs-filtered?setor=Tecnologia&modalidade=Remoto'
+);
+const vagasFiltradas = await filteredResponse.json();
+```
+
+### cURL
+```bash
+# Listar vagas
+curl "http://localhost:8000/jobs?limit=10"
+
+# Filtrar vagas
+curl "http://localhost:8000/jobs-filtered?setor=Tecnologia&modalidade=Remoto"
+
+# Estatísticas de skills
+curl "http://localhost:8000/skills-by-sector"
+```
+
+## ⚙️ Configuração
+
+### Variáveis de Ambiente (.env)
+```env
+SUPABASE_URL=https://sua-url.supabase.co
+SUPABASE_SERVICE_KEY=sua_service_role_key_aqui
+```
+
+### Dependências
+- **FastAPI**: Framework web moderno
+- **Supabase**: Cliente Python para Supabase
+- **Uvicorn**: Servidor ASGI
+- **Pydantic**: Validação de dados
+- **python-dotenv**: Gerenciamento de variáveis de ambiente
+
+## 🧪 Testes
+
+```bash
+# Executar testes automatizados
+python test_api.py
+
+# Executar exemplos práticos
+python exemplos_uso_api.py
+```
+
+## 🚀 Deploy
+
+### Desenvolvimento
 ```bash
 python api_vagas_skills.py
 ```
 
-A API estará disponível em `http://localhost:8000`
-
-## 🚀 Deploy
-
-### Heroku
-
-1. Crie uma conta no [Heroku](https://heroku.com)
-2. Instale o [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-3. Faça login no Heroku:
+### Produção
 ```bash
-heroku login
+uvicorn api_vagas_skills:app --host 0.0.0.0 --port 8000
 ```
 
-4. Crie uma nova aplicação:
+### Docker
 ```bash
-heroku create nome-da-sua-app
+docker build -t api-vagas .
+docker run -p 8000:8000 --env-file .env api-vagas
 ```
 
-5. Configure as variáveis de ambiente:
-```bash
-heroku config:set SUPABASE_URL=sua_url_supabase
-heroku config:set SUPABASE_KEY=sua_chave_supabase
-```
+## 📚 Documentação Completa
 
-6. Faça o deploy:
-```bash
-git add .
-git commit -m "Deploy inicial"
-git push heroku main
-```
+| Documento | Descrição |
+|-----------|-----------|
+| [📖 API_VAGAS_SKILLS_DOCUMENTATION.md](API_VAGAS_SKILLS_DOCUMENTATION.md) | Documentação técnica completa da API |
+| [🚀 DEPLOY_GUIDE.md](DEPLOY_GUIDE.md) | Guia completo de deploy e configuração |
+| [📝 exemplos_uso_api.py](exemplos_uso_api.py) | Exemplos práticos em Python e JavaScript |
+| [🧪 test_api.py](test_api.py) | Testes automatizados da API |
 
-### Railway
+## 🔧 Funcionalidades
 
-1. Conecte seu repositório GitHub ao [Railway](https://railway.app)
-2. Configure as variáveis de ambiente no painel do Railway
-3. O deploy será automático a cada push
+### ✅ Implementado
+- [x] Listagem de vagas com paginação
+- [x] Filtros por setor, modalidade, localização e regime
+- [x] Estatísticas de skills por setor
+- [x] Integração com Supabase
+- [x] Documentação interativa (Swagger/ReDoc)
+- [x] Tratamento de erros robusto
+- [x] Exemplos de uso em múltiplas linguagens
+- [x] Testes automatizados
+- [x] Guia de deploy completo
 
-### Render
+### 🔄 Roadmap
+- [ ] Busca textual nas descrições
+- [ ] Endpoint para vaga específica por ID
+- [ ] Filtros avançados (faixa salarial, data)
+- [ ] Autenticação e autorização
+- [ ] Rate limiting
+- [ ] Cache para performance
+- [ ] Métricas e monitoramento
 
-1. Conecte seu repositório ao [Render](https://render.com)
-2. Configure o serviço web com:
-   - **Build Command**: `pip install -r requirements-ultra-simple.txt` (RECOMENDADO)
-   - **Start Command**: `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
-3. Configure as variáveis de ambiente
+## 🛠️ Tecnologias
 
-⚠️ **Troubleshooting Deploy:**
+- **Backend**: FastAPI + Python 3.8+
+- **Banco de Dados**: Supabase (PostgreSQL)
+- **Servidor**: Uvicorn
+- **Documentação**: Swagger UI + ReDoc
+- **Deploy**: Docker, Heroku, Railway, DigitalOcean
 
-**Erro de Compilação pydantic-core no Render:**
-- **Causa:** Sistema de arquivos somente leitura impede compilação de dependências Rust
-- **Solução 1:** `requirements-simple.txt` (versões modernas com wheels)
-- **Solução 2:** `requirements-minimal.txt` (versões mais antigas)
-- **Solução 3 (RECOMENDADA - USE ESTA):** `requirements-ultra-simple.txt` (sem dependências Rust - Pydantic 1.x)
-  - Esta é a solução definitiva para o erro de compilação Rust
-- **Build Command:** `pip install -r requirements-ultra-simple.txt`
-- **Start Command:** `gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT`
-- **Arquivos disponíveis (em ordem de compatibilidade):**
-  - `requirements-ultra-simple.txt`: **RECOMENDADO** - Pydantic 1.10.12 (sem Rust)
-  - `requirements-simple.txt`: Pydantic 2.0.3 (pode falhar)
-  - `requirements-minimal.txt`: Versões alternativas
+## 📊 Estrutura do Banco
 
-## 🔧 Configuração
+### Tabela `vagas`
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `id` | integer | ID único da vaga |
+| `titulo` | text | Título da vaga |
+| `empresa` | text | Nome da empresa |
+| `setor` | text | Setor da empresa |
+| `modalidade` | text | Modalidade (Remoto/Presencial/Híbrido) |
+| `localidade` | text | Localização da vaga |
+| `salario` | text | Faixa salarial |
+| `habilidades` | text | Skills requeridas |
+| `requisitos` | text | Requisitos da vaga |
 
-### Variáveis de Ambiente
+## 🔒 Segurança
 
-Crie um arquivo `.env` com:
+- ✅ Validação de entrada com Pydantic
+- ✅ Tratamento de erros seguro
+- ✅ Configuração CORS adequada
+- ⚠️ **Produção**: Configure origins específicos no CORS
+- ⚠️ **Produção**: Use HTTPS com certificados SSL
 
-```env
-SUPABASE_URL=https://seu-projeto.supabase.co
-SUPABASE_KEY=sua-chave-publica-supabase
-```
+## 📈 Performance
 
-### Estrutura da Base de Dados
+- **Paginação**: Limite padrão de 50 vagas por requisição
+- **Índices**: Recomendados para campos de filtro
+- **Cache**: Considere implementar para `/skills-by-sector`
+- **Monitoramento**: Health checks e métricas disponíveis
 
-A API espera uma tabela `jobs` com as seguintes colunas:
-- `id`: Identificador único
-- `titulo`: Título da vaga
-- `descricao`: Descrição completa
-- `setor`: Setor da vaga
-- `requisitos`: Requisitos da vaga
-- `habilidades`: Habilidades necessárias
-- `beneficios`: Benefícios oferecidos
-- `horario`: Horário de trabalho
-- `regime_contratacao`: Tipo de contratação
-- `created_at`: Data de criação
-- `updated_at`: Data de atualização
+## 🆘 Suporte
 
-## 📊 Exemplo de Resposta
+### Problemas Comuns
+1. **API não inicia**: Verifique configuração do `.env`
+2. **Erro de conexão**: Teste credenciais do Supabase
+3. **Performance lenta**: Verifique índices no banco
 
-### Skills por Setor
-```json
-{
-  "sectors": [
-    {
-      "sector": "Tecnologia",
-      "total_jobs": 45,
-      "average_salary": null,
-      "top_skills": [
-        {
-          "skill": "Python",
-          "percentage": 67.5,
-          "job_count": 30
-        },
-        {
-          "skill": "JavaScript",
-          "percentage": 45.2,
-          "job_count": 20
-        }
-      ]
-    }
-  ],
-  "total_jobs_analyzed": 150,
-  "last_updated": "2024-01-15T14:30:00"
-}
-```
+### Recursos
+- **Issues**: Criar issue no repositório
+- **Documentação**: Consulte os arquivos `.md`
+- **Exemplos**: Execute `exemplos_uso_api.py`
 
 ## 🤝 Contribuição
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+1. Fork o repositório
+2. Crie uma branch para sua feature
+3. Implemente as mudanças
+4. Adicione testes
+5. Atualize a documentação
+6. Submeta um Pull Request
 
-## 📝 Licença
+## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+MIT License - veja o arquivo LICENSE para detalhes.
 
-## 📞 Contato
+---
 
-Seu Nome - seu.email@exemplo.com
+## 🎯 Links Rápidos
 
-Link do Projeto: [https://github.com/SEU_USUARIO/vagas-skills-api](https://github.com/SEU_USUARIO/vagas-skills-api)
+- **🌐 API Local**: http://localhost:8000
+- **📖 Swagger UI**: http://localhost:8000/docs
+- **📚 ReDoc**: http://localhost:8000/redoc
+- **🔧 Health Check**: http://localhost:8000/health (se implementado)
+
+---
+
+**📅 Última Atualização:** Janeiro 2024  
+**👨‍💻 Desenvolvido com:** FastAPI + Supabase  
+**🚀 Status:** Produção Ready  
+**📋 Versão:** 1.0.0

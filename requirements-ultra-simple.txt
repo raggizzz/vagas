@@ -1,16 +1,23 @@
-# Versões ultra-conservadoras sem dependências Rust
-# Para casos extremos onde pydantic 2.x falha
-fastapi==0.95.2
-uvicorn==0.22.0
-pydantic==2.5.3
-supabase==2.3.4
-python-dotenv==1.0.0
-requests==2.31.0
-gunicorn==21.2.0
+# --- API base (pydantic v2) ---
+fastapi==0.111.0
+starlette==0.37.2
+pydantic==2.8.2
+pydantic-core==2.20.1
 
-# Dependências básicas fixas
-typing-extensions==4.12.2
-anyio==3.7.1
-starlette==0.27.0
-click==8.1.6
+# ASGI
+uvicorn==0.30.6
 h11==0.14.0
+anyio==4.4.0
+click==8.1.7
+
+# HTTP
+httpx==0.27.2
+requests==2.32.3
+
+# Supabase SDK 2.x (compatível com httpx 0.27)
+supabase==2.3.4
+
+# misc
+python-dotenv==1.0.1
+typing-extensions==4.12.2
+gunicorn==22.0.0
