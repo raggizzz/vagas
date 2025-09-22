@@ -1,0 +1,24 @@
+# Requirements CORRIGIDO para Render - Sem conflitos de dependências
+# Use este arquivo para resolver o erro de conflito Pydantic/Supabase
+
+# API dependencies (versões testadas e compatíveis)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.4.2
+
+# Database - versão compatível com Pydantic 2.x
+supabase==2.3.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Production dependencies
+gunicorn==21.2.0
+
+# Typing extensions para compatibilidade
+typing-extensions==4.8.0
+
+# Dependências adicionais para estabilidade
+httpx==0.25.2
+anyio==3.7.1

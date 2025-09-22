@@ -727,6 +727,140 @@ sudo supervisorctl restart api-vagas
 
 ---
 
+## 🚨 Troubleshooting - Problemas Comuns
+
+### ❌ Erro de Rust/Pydantic no Render
+
+**Erro:**
+```
+error: failed to create directory `/usr/local/cargo/registry/cache/index.crates.io-1949cf8c6b5b557f`
+Caused by: Read-only file system (os error 30)
+💥 maturin failed
+```
+
+**Causa:** Pydantic v2 usa dependências Rust que não conseguem ser compiladas em sistemas de arquivos somente leitura do Render.
+
+**✅ Solução:**
+
+1. **Use o arquivo de requirements CORRIGIDO:**
+```bash
+# No Render Dashboard, configure:
+Build Command: pip install -r requirements-render-fixed.txt
+Start Command: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
+```
+
+2. **Ou use o arquivo render.yaml automático:**
+```yaml
+# render.yaml (já criado no projeto)
+services:
+  - type: web
+    name: api-vagas-skills
+    env: python
+    buildCommand: pip install -r requirements-render-fixed.txt
+    startCommand: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+```
+
+3. **Configurar variáveis de ambiente no Render:**
+   - `SUPABASE_URL`: https://sua-url.supabase.co
+   - `SUPABASE_SERVICE_KEY`: sua_service_role_key
+
+**📋 Arquivos de Requirements Disponíveis:**
+- `requirements.txt`: Versão completa (desenvolvimento local)
+- `requirements-render-fixed.txt`: **🔥 USE ESTE para Render** (conflitos resolvidos)
+- `requirements-render-simple.txt`: Alternativa sem Supabase SDK
+- `requirements-render.txt`: ❌ Versão antiga (conflitos)
+- `requirements-simple.txt`: Alternativa simples
+- `requirements-minimal.txt`: Versão mínima
+
+### ❌ Erro de Conflito de Dependências
+
+**Erro:**
+```
+ERROR: Cannot install -r requirements-render.txt (line 5), pydantic==1.10.12 and supabase because these package versions have conflicting dependencies.
+The conflict is caused by:
+    The user requested pydantic==1.10.12
+    fastapi 0.68.0 depends on pydantic!=1.7, !=1.7.1, !=1.7.2, !=1.7.3, !=1.8, !=1.8.1, <2.0.0 and >=1.6.2
+    gotrue 1.0.3 depends on pydantic<3.0 and >=2.1
+```
+
+**Causa:** Conflito entre versões do Pydantic - Supabase 2.x requer Pydantic 2.x, mas o arquivo antigo usava Pydantic 1.x. <mcreference link="https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts" index="0">0</mcreference>
+
+**✅ Solução:**
+```bash
+# Use o arquivo CORRIGIDO:
+Build Command: pip install -r requirements-render-fixed.txt
+```
+
+**Alternativa se ainda houver problemas:**
+```bash
+# Use a versão simples sem Supabase SDK:
+Build Command: pip install -r requirements-render-simple.txt
+```
+
+### ❌ Outros Problemas Comuns
+
+#### 1. **Erro de Módulo Não Encontrado**
+```bash
+ModuleNotFoundError: No module named 'fastapi'
+```
+**Solução:** Verificar se o arquivo de requirements está correto e todas as dependências estão listadas.
+
+#### 2. **Erro de Conexão com Supabase**
+```bash
+HTTPException: 401 Unauthorized
+```
+**Solução:** 
+- Verificar se `SUPABASE_URL` e `SUPABASE_SERVICE_KEY` estão configurados
+- Usar `SUPABASE_SERVICE_KEY` (não a chave pública)
+
+#### 3. **Erro de Porta**
+```bash
+Error: [Errno 98] Address already in use
+```
+**Solução:** 
+- Usar `$PORT` no comando de start
+- Configurar `--bind 0.0.0.0:$PORT` no gunicorn
+
+#### 4. **Timeout de Build**
+**Solução:** 
+- Usar `requirements-render.txt` (mais rápido)
+- Remover dependências desnecessárias
+
+### 🔧 Comandos de Debug
+
+```bash
+# Testar localmente com as mesmas dependências do Render
+pip install -r requirements-render.txt
+python api_vagas_skills.py
+
+# Verificar se a API responde
+curl http://localhost:8000/
+
+# Testar conexão com Supabase
+python -c "
+import os
+from supabase import create_client
+from dotenv import load_dotenv
+
+load_dotenv()
+url = os.getenv('SUPABASE_URL')
+key = os.getenv('SUPABASE_SERVICE_KEY')
+
+if url and key:
+    client = create_client(url, key)
+    print('✅ Conexão OK')
+else:
+    print('❌ Configuração incompleta')
+"
+```
+
+---
+
 ## 📞 Suporte
 
 ### Contatos

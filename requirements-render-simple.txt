@@ -1,0 +1,17 @@
+# Requirements ULTRA SIMPLES para Render - Sem Supabase SDK
+# Use este arquivo se ainda houver conflitos
+
+# API dependencies mínimas
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.4.2
+
+# HTTP client para Supabase REST API
+requests==2.31.0
+httpx==0.25.2
+
+# Utilities
+python-dotenv==1.0.0
+
+# Production
+gunicorn==21.2.0
