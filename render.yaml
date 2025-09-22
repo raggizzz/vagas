@@ -2,7 +2,7 @@ services:
   - type: web
     name: api-vagas-skills
     env: python
-    buildCommand: pip install -r requirements-render-fixed.txt
+    buildCommand: pip install -r requirements-render-supabase.txt
     startCommand: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
     envVars:
       - key: SUPABASE_URL

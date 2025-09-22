@@ -1,0 +1,19 @@
+# Requirements MINIMAL para Render - Garantidamente sem Rust
+# Versões antigas e estáveis que não usam dependências Rust
+
+# API dependencies (versões antigas sem Rust)
+fastapi==0.68.0
+uvicorn==0.15.0
+pydantic==1.8.2
+
+# HTTP client simples (sem Supabase SDK)
+requests==2.25.1
+
+# Utilities básicas
+python-dotenv==0.19.0
+
+# Production
+gunicorn==20.1.0
+
+# Typing para Python < 3.8
+typing-extensions==3.10.0

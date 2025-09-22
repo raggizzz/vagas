@@ -1,0 +1,26 @@
+# Requirements para Render COM Supabase - Versões sem Rust
+# Testado e funcionando no Render
+
+# API dependencies (versões estáveis sem Rust)
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+pydantic==1.10.9
+
+# Database - versão específica do Supabase sem dependências Rust
+supabase==1.0.4
+postgrest==0.10.8
+gotrue==1.0.1
+realtime==1.0.0
+storage3==0.5.4
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Production
+gunicorn==21.2.0
+
+# Dependências específicas para evitar conflitos
+httpx==0.24.1
+anyio==3.7.1
+typing-extensions==4.7.1
