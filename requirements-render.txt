@@ -1,0 +1,20 @@
+# Requirements compatível com Render (sem dependências Rust)
+# Use este arquivo para deploy no Render
+
+# API dependencies (versões sem Rust)
+fastapi==0.68.0
+uvicorn[standard]==0.15.0
+pydantic==1.10.12
+
+# Database
+supabase==1.0.4
+
+# Utilities
+python-dotenv==0.19.2
+requests==2.28.1
+
+# Production dependencies
+gunicorn==20.1.0
+
+# Typing extensions para compatibilidade
+typing-extensions==4.3.0
