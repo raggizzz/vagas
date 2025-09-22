@@ -742,10 +742,10 @@ Caused by: Read-only file system (os error 30)
 
 **✅ Solução:**
 
-1. **Use o arquivo de requirements CORRIGIDO:**
+1. **Use o arquivo de requirements COM SUPABASE:**
 ```bash
 # No Render Dashboard, configure:
-Build Command: pip install -r requirements-render-fixed.txt
+Build Command: pip install -r requirements-render-supabase.txt
 Start Command: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
 ```
 
@@ -756,7 +756,7 @@ services:
   - type: web
     name: api-vagas-skills
     env: python
-    buildCommand: pip install -r requirements-render-fixed.txt
+    buildCommand: pip install -r requirements-render-supabase.txt
     startCommand: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
     envVars:
       - key: SUPABASE_URL
@@ -771,8 +771,10 @@ services:
 
 **📋 Arquivos de Requirements Disponíveis:**
 - `requirements.txt`: Versão completa (desenvolvimento local)
-- `requirements-render-fixed.txt`: **🔥 USE ESTE para Render** (conflitos resolvidos)
+- `requirements-render-supabase.txt`: **🔥 USE ESTE para Render** (COM Supabase, sem Rust)
+- `requirements-render-fixed.txt`: Alternativa (pode ter conflitos)
 - `requirements-render-simple.txt`: Alternativa sem Supabase SDK
+- `requirements-render-minimal.txt`: Versão ultra-mínima
 - `requirements-render.txt`: ❌ Versão antiga (conflitos)
 - `requirements-simple.txt`: Alternativa simples
 - `requirements-minimal.txt`: Versão mínima

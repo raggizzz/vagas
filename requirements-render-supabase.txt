@@ -9,7 +9,7 @@ pydantic==1.10.9
 # Database - versão específica do Supabase sem dependências Rust
 supabase==1.0.4
 postgrest==0.10.8
-gotrue==1.0.1
+gotrue==1.0.3
 realtime==1.0.0
 storage3==0.5.4
 
