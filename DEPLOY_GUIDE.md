@@ -746,7 +746,14 @@ Caused by: Read-only file system (os error 30)
 ```bash
 # No Render Dashboard, configure:
 Build Command: pip install -r requirements-render-supabase.txt
-Start Command: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
+Start Command: uvicorn api_vagas_skills:app --host 0.0.0.0 --port $PORT
+```
+
+**🔄 Alternativa se ainda der erro:**
+```bash
+# Use a versão ultra-simples:
+Build Command: pip install -r requirements-render-ultra-simple.txt
+Start Command: uvicorn api_vagas_skills:app --host 0.0.0.0 --port $PORT
 ```
 
 2. **Ou use o arquivo render.yaml automático:**
@@ -772,6 +779,7 @@ services:
 **📋 Arquivos de Requirements Disponíveis:**
 - `requirements.txt`: Versão completa (desenvolvimento local)
 - `requirements-render-supabase.txt`: **🔥 USE ESTE para Render** (COM Supabase, sem Rust)
+- `requirements-render-ultra-simple.txt`: **🚨 BACKUP GARANTIDO** (versões antigas mas funcionais)
 - `requirements-render-fixed.txt`: Alternativa (pode ter conflitos)
 - `requirements-render-simple.txt`: Alternativa sem Supabase SDK
 - `requirements-render-minimal.txt`: Versão ultra-mínima

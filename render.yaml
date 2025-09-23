@@ -3,7 +3,7 @@ services:
     name: api-vagas-skills
     env: python
     buildCommand: pip install -r requirements-render-supabase.txt
-    startCommand: gunicorn api_vagas_skills:app --bind 0.0.0.0:$PORT
+    startCommand: uvicorn api_vagas_skills:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: SUPABASE_URL
         sync: false
