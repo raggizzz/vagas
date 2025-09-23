@@ -15,7 +15,7 @@ realtime==1.0.0
 storage3==0.5.3
 
 # Dependências básicas
-httpx==0.22.0
+httpx==0.23.0
 anyio==3.3.4
 typing-extensions==3.10.0
 
